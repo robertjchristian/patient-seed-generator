@@ -1,5 +1,5 @@
 # patient-seed-generator
-Generates fake patient and health data into a graph model for testing
+Generates fake patient and health data into a graph model for testing big data pipelines and analytics functionality
 
 ## Project Structure
 
