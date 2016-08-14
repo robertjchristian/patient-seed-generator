@@ -152,8 +152,8 @@ researchers_doc = Commandset("ADD", "RESEARCHER", content).gen_add_commandset(ra
 write_json("output/researchers.json", researchers_doc)
 
 # create encounters json file
-print "Generating 100k encounters..."
-for index in range(0, 999): 
+print "Generating 50k encounters..."
+for index in range(0, 49999): 
   element = {}
   element["commandName"] = "ADD"
   element["elementType"] = "ENCOUNTER"
@@ -214,7 +214,7 @@ clearinghouse_edges_doc = make_add_edge_left_outter(clearing_houses_doc, [resear
 write_json("output/edges/clearinghouse_edges.json", clearinghouse_edges_doc)
 
 # create research org nodes
-research_org_edges_doc = make_add_edge_left_outter(research_orgs_doc, [researchers_doc])
+research_org_edges_doc = make_add_edge_left_outter(researchers_doc, [research_orgs_doc])
 write_json("output/edges/resource_org_edges.json", research_org_edges_doc)
 
 
