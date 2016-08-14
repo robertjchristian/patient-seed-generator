@@ -1,0 +1,992 @@
+[
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "eeb48459-0946-4ac7-bb61-40e80b458863", 
+            "RESEARCH_ORGANIZATION_ID": "a84c2c0f-c6e5-49af-abc3-29ed4f14d7e6", 
+            "id": "f30a7bb0-3b9f-44cc-9238-8d14989708a4", 
+            "timestamp": "2014-08-25"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b591b0c3-2157-42a8-bd41-f358a662607e", 
+            "RESEARCH_ORGANIZATION_ID": "d0eb5fe8-6188-4b0f-b370-5c02a2a54416", 
+            "id": "edf4631b-1e80-4259-a653-ee2c64b3613b", 
+            "timestamp": "2014-11-09"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c2ed4240-a4b7-42e0-bce8-029fea3b7c23", 
+            "RESEARCH_ORGANIZATION_ID": "452f8376-711d-4219-8c24-d6e4dda6a6f2", 
+            "id": "e32c2c88-7ccc-4fcd-a2f8-906514e1e36d", 
+            "timestamp": "2016-05-18"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "9bf9675e-6df7-46c9-a952-4c03782e6f85", 
+            "RESEARCH_ORGANIZATION_ID": "00be5d5c-a9bc-415a-8c12-7fd2ae438119", 
+            "id": "2fbed835-cc64-4ad3-90a0-75d420ed107d", 
+            "timestamp": "2015-05-01"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "5a751713-c605-4a21-8b6f-5c9139582e0a", 
+            "RESEARCH_ORGANIZATION_ID": "bfaac91c-e639-44e6-b429-a2b4aca7d826", 
+            "id": "dc2bdfa8-5d76-47be-9d68-93ab462b5e73", 
+            "timestamp": "2016-06-13"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "2dbfe340-fe9d-4552-b1a7-0044cfbb977b", 
+            "RESEARCH_ORGANIZATION_ID": "93d79f02-a43d-44af-9bf0-1a115276ee30", 
+            "id": "09156e2d-1a8b-472c-a33f-d7a9270a1987", 
+            "timestamp": "2015-10-09"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "203a483b-c615-4bd6-8fd6-af28c88ae09c", 
+            "RESEARCH_ORGANIZATION_ID": "6a7025c6-236f-4d2f-b8e4-8e4d672e443b", 
+            "id": "ada01255-c8a3-49bf-9458-f74b5cea99cb", 
+            "timestamp": "2016-01-30"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7f2a0176-6192-439c-895a-9284339fd16d", 
+            "RESEARCH_ORGANIZATION_ID": "13ad6da0-fd65-4688-ac39-038d5169ac54", 
+            "id": "9abac43e-f852-4168-92c4-b6b538cb79fc", 
+            "timestamp": "2014-11-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "4613852a-d82b-43ba-a7b2-ead8482798f7", 
+            "RESEARCH_ORGANIZATION_ID": "a0ea739d-531b-4a56-8230-0b659972cf49", 
+            "id": "b4b703fe-0b30-4a78-a22c-20b063b1320c", 
+            "timestamp": "2015-09-07"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "58b0d5b7-773c-4639-9ca2-5461a944c74b", 
+            "RESEARCH_ORGANIZATION_ID": "eec72035-9132-486f-bc71-86b4a0eac856", 
+            "id": "15ad455e-1dc1-4b8c-a0c2-6417277cd96e", 
+            "timestamp": "2016-05-11"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7dde0a33-b62a-49dc-8233-1197adb4d301", 
+            "RESEARCH_ORGANIZATION_ID": "23eb66e2-b355-4d1d-9f13-e52cefcabf30", 
+            "id": "f8f8a93c-21d7-4b28-9ac4-9488b28769b6", 
+            "timestamp": "2015-01-14"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b2b6c26e-91a6-4270-9097-5505409d702f", 
+            "RESEARCH_ORGANIZATION_ID": "df4b6991-20a0-4a52-aca0-9123adcba812", 
+            "id": "e9eb69fd-f63d-43b8-a11b-dd60eb13132c", 
+            "timestamp": "2014-10-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "9e969dd9-d44b-4a5b-a17c-51086633beef", 
+            "RESEARCH_ORGANIZATION_ID": "2290e059-e921-433e-9299-e87e7c45ab03", 
+            "id": "05b84a7c-1194-43cc-ba13-14b488a88b45", 
+            "timestamp": "2015-05-01"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "dc4ee580-6db2-4843-a039-642aad60a664", 
+            "RESEARCH_ORGANIZATION_ID": "3badc5ff-90de-4481-8647-0f980c0e99d8", 
+            "id": "ea5ba7ad-c0ab-4d86-8a99-e387efd8e9b4", 
+            "timestamp": "2015-06-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "ff53a977-00f9-4202-90d0-760341cbb827", 
+            "RESEARCH_ORGANIZATION_ID": "5562dbf5-32bf-4716-842f-ac5df7385b85", 
+            "id": "5eea3c3d-fee7-4ddd-b713-8d84aa179705", 
+            "timestamp": "2015-05-06"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "50f29482-274e-4711-968a-6a05ec60a98f", 
+            "RESEARCH_ORGANIZATION_ID": "40e290fb-e53b-4818-9fc5-0bd8d258175e", 
+            "id": "67be88a2-d87d-4f7b-a821-a23da3515294", 
+            "timestamp": "2014-12-03"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c3af7d58-ecff-4d45-9caa-ad67a766ed92", 
+            "RESEARCH_ORGANIZATION_ID": "7302a8d5-7e29-4582-a336-9f2df6b1dcd0", 
+            "id": "453754a6-20ec-4527-b32d-056715ddc28f", 
+            "timestamp": "2016-04-07"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "33aac3ea-7767-4d7b-bee0-057bf5805c6b", 
+            "RESEARCH_ORGANIZATION_ID": "4b67b2fc-20c0-4ed9-8ed0-81d6b2ad56a4", 
+            "id": "93f61b8a-8d6d-4a7f-ab40-ca98070fd36b", 
+            "timestamp": "2015-09-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7f742cf5-f926-4239-8495-bcad62f478af", 
+            "RESEARCH_ORGANIZATION_ID": "6b0adeec-f030-4b7c-8d86-c875b64f93df", 
+            "id": "014f96a2-3b8b-4bc0-9f30-0908eb333ce1", 
+            "timestamp": "2015-10-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "effe1659-25b3-4269-adec-1be56a754114", 
+            "RESEARCH_ORGANIZATION_ID": "5f88df9e-9f0b-476e-985e-891fa9763a6a", 
+            "id": "37c60ce9-7043-44c5-8da1-1d81bed6b979", 
+            "timestamp": "2014-12-20"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "0f82b2d4-ca54-4cfe-9752-f73c11834f10", 
+            "RESEARCH_ORGANIZATION_ID": "8f77c70b-752f-4e27-b81a-fd6e846353a9", 
+            "id": "83513d4f-c5df-4940-82c1-8066d0563132", 
+            "timestamp": "2014-09-26"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "0f181c86-822c-4c1f-8b5c-72a34f5561a9", 
+            "RESEARCH_ORGANIZATION_ID": "f7bcba8f-32f3-4268-8013-c241b398cac8", 
+            "id": "7cbbe4e1-8fb5-4ea1-a64d-0f3c58fc3484", 
+            "timestamp": "2016-02-12"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "d0a66446-34a9-46d6-81c5-d4b6c8c9050b", 
+            "RESEARCH_ORGANIZATION_ID": "8e36b424-3d32-4dec-b2a7-2ddf95efff85", 
+            "id": "828f0b0e-f664-4425-8c43-3ec7bb1cfbd6", 
+            "timestamp": "2016-02-22"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "09ff7c44-ebb2-411f-b743-59c39555a991", 
+            "RESEARCH_ORGANIZATION_ID": "01e0e604-eb45-481c-a61f-8c2deb62f235", 
+            "id": "666e2492-f1a4-4cd1-907f-67418eebfb47", 
+            "timestamp": "2014-08-15"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "0238cae2-da00-4d6f-8e43-d3152963aacc", 
+            "RESEARCH_ORGANIZATION_ID": "5b8666c0-d2ee-46ac-9181-323d7cb46464", 
+            "id": "feb986e5-6956-4abb-ab65-a331c9518b7c", 
+            "timestamp": "2016-01-20"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c30a8001-73c3-42b7-8e2b-4f13583078fd", 
+            "RESEARCH_ORGANIZATION_ID": "1ee7b6be-c3b7-46d9-95d4-d69ee54de48f", 
+            "id": "1648fd83-363a-4aa7-8462-b902dfdd1371", 
+            "timestamp": "2015-02-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "5b742744-d1a6-4c8f-b985-0791580ea665", 
+            "RESEARCH_ORGANIZATION_ID": "3015921c-77fd-4620-b1a9-af470bc6ad80", 
+            "id": "4acb73b1-690f-4a74-b0af-cb120702e72b", 
+            "timestamp": "2015-06-25"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "551aa762-dfe5-4376-b8f3-166341e9bd71", 
+            "RESEARCH_ORGANIZATION_ID": "da80c58d-b438-41a4-88e6-4c4c698ad93b", 
+            "id": "5424440a-5fc2-41ef-8b80-53c7bd2aa86d", 
+            "timestamp": "2015-09-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "daf9aee7-c96c-4783-bc8a-75775ec5d480", 
+            "RESEARCH_ORGANIZATION_ID": "078cfafe-d480-4505-9b1a-fc3cd5ea471c", 
+            "id": "6de2b2d0-3bfd-4d1a-80b3-c8642bcf24de", 
+            "timestamp": "2015-10-06"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b2000f40-c7a4-40db-b3ff-50d801239c13", 
+            "RESEARCH_ORGANIZATION_ID": "5a470ef2-2825-4ff6-b630-ce8040fdcd3d", 
+            "id": "6e1408e4-dae8-480c-955c-4b447ef7d768", 
+            "timestamp": "2015-10-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "523fd8e7-3c7c-4209-b1ee-bf21f8e66c1b", 
+            "RESEARCH_ORGANIZATION_ID": "381d2d31-dfef-46bf-b1ec-31c11610bdac", 
+            "id": "b91e2f5e-8feb-476b-8a57-ec63d806de71", 
+            "timestamp": "2015-05-29"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "be25186f-f0b5-4cb8-909a-99d34b8f1259", 
+            "RESEARCH_ORGANIZATION_ID": "ef771d86-50bc-47c4-87ed-815102e29a5b", 
+            "id": "f7b56db9-3330-4b1c-b852-37cfe5898dbc", 
+            "timestamp": "2016-04-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "e02c5e48-5b62-4e20-8c42-f6f89d59f48f", 
+            "RESEARCH_ORGANIZATION_ID": "02459209-c5db-4a65-9323-ca64def10cac", 
+            "id": "fdb7a454-8963-4f80-bd05-d9e8f7c3f592", 
+            "timestamp": "2016-06-29"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "82c1ea9b-e717-4bcf-a462-eda167098cea", 
+            "RESEARCH_ORGANIZATION_ID": "541ca935-62f5-4296-9e59-e571cd0ec63b", 
+            "id": "d3f0a6b9-cadd-4e85-bd41-601d74059eda", 
+            "timestamp": "2015-09-08"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "aee8cd8e-6c69-4d73-9c3a-90e7468c176f", 
+            "RESEARCH_ORGANIZATION_ID": "d8e83f1d-d606-4641-8c18-191602bc93c1", 
+            "id": "e4632f7d-97bc-4429-86a7-d870b638c482", 
+            "timestamp": "2014-12-15"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c1be59c1-7f75-402b-9559-b5903b19cd62", 
+            "RESEARCH_ORGANIZATION_ID": "6c62dd84-7af7-47fc-9e55-aae4eaa499a6", 
+            "id": "b1f95572-159a-4870-a8ec-0642a1852197", 
+            "timestamp": "2016-02-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "3452bc60-c171-48aa-b340-da6d9763c35f", 
+            "RESEARCH_ORGANIZATION_ID": "6172cd38-d057-4215-a162-116c9d62b71a", 
+            "id": "87c94fd8-f55e-4c59-918b-d99c0f3c19c2", 
+            "timestamp": "2015-07-05"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "4332cb65-9e1e-4a52-b42a-9d2b92584eae", 
+            "RESEARCH_ORGANIZATION_ID": "40b0e752-68fe-4bac-9ad2-77e51a0e0e85", 
+            "id": "bc974f29-cfad-446a-85da-b878180f787d", 
+            "timestamp": "2015-03-31"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "804b1194-2688-4bf1-8aa1-e535f4aec131", 
+            "RESEARCH_ORGANIZATION_ID": "e23e3304-20f5-4536-b3da-2a8fe5ab55ce", 
+            "id": "28d95c1f-0920-4a97-85cd-751c9698323f", 
+            "timestamp": "2015-08-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "087e4fdb-e889-42a2-9420-c334f8ae1e49", 
+            "RESEARCH_ORGANIZATION_ID": "fea93fc5-1a33-4e3b-a10c-e73d76a9a844", 
+            "id": "0946d91f-0d89-44e7-bc48-ecd94fc078b8", 
+            "timestamp": "2015-09-13"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "bb10cd9e-0513-406b-bfb8-bf3c9a5e7acc", 
+            "RESEARCH_ORGANIZATION_ID": "a86a76e4-88ed-4211-93eb-904f0b9e1a9c", 
+            "id": "d15c6001-566d-4a3f-b08b-1d18c58c7256", 
+            "timestamp": "2015-08-09"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "a31a2b73-bfa6-412b-aaed-641fb4083ab3", 
+            "RESEARCH_ORGANIZATION_ID": "2288a383-d566-48d1-ba85-d206c1475b37", 
+            "id": "1aaa08f7-a80f-478a-8368-c7273c5f1ef4", 
+            "timestamp": "2014-12-25"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "6b47e6fb-fc31-4116-8e75-8c6ebc2aefcc", 
+            "RESEARCH_ORGANIZATION_ID": "a28027a5-7958-4c50-8b7e-6794bf661cd7", 
+            "id": "5b2478e5-0ab7-4396-8c0a-b6d71d0fe376", 
+            "timestamp": "2016-01-31"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "ac9d7fab-c6a4-4611-88c2-0f9e0690639e", 
+            "RESEARCH_ORGANIZATION_ID": "c77b5ff0-6938-4906-be73-128d2b53aba9", 
+            "id": "f2fcfbc7-d804-45c6-9b64-798e786aa2de", 
+            "timestamp": "2014-10-23"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "79baa9aa-c56f-4cb9-a0fc-92ea3f6a6cae", 
+            "RESEARCH_ORGANIZATION_ID": "3b4a7ed4-2fa1-4e4b-910f-53d5a40d4b56", 
+            "id": "6280ff58-fb9b-44d4-859b-ea6ac38a5d26", 
+            "timestamp": "2015-10-02"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "0d9c734f-808a-4946-b1dc-fd55c226e5e4", 
+            "RESEARCH_ORGANIZATION_ID": "8249faa0-c649-4794-ba44-a22253af64b9", 
+            "id": "5ab19e11-26b5-4e90-a602-6add5447cc36", 
+            "timestamp": "2015-03-19"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "44d0e116-5d72-4812-8571-e691c7bbba32", 
+            "RESEARCH_ORGANIZATION_ID": "5d92ef09-6969-4cab-a4cd-0041f6911e74", 
+            "id": "afb1bc32-1065-4e29-9679-602487f500ca", 
+            "timestamp": "2015-07-22"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "418a29e1-b3ac-489c-a118-75aba59ce472", 
+            "RESEARCH_ORGANIZATION_ID": "85372356-1a21-479b-b185-5643a7799313", 
+            "id": "d22a3438-cda6-4821-aaa9-d912ff15abf8", 
+            "timestamp": "2016-04-28"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "e862d3d9-410e-4389-a386-5b7f7caad494", 
+            "RESEARCH_ORGANIZATION_ID": "dfcb8358-ae27-4c28-ab8e-5c53f7757c42", 
+            "id": "2fb0ae43-7d0a-4a16-849d-48ec566ad7b7", 
+            "timestamp": "2016-07-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "4c589d6b-e5a0-4c09-8916-f45fccbb816e", 
+            "RESEARCH_ORGANIZATION_ID": "c60ea1bd-0068-4c14-be41-b40f49da3a40", 
+            "id": "f8afc1b7-3700-4b16-b8f3-a3ce5b8df473", 
+            "timestamp": "2015-04-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "85e95cda-1c60-4d7d-bf25-4b51fad3b9eb", 
+            "RESEARCH_ORGANIZATION_ID": "d60c2354-83e5-4440-916d-818e67a78bde", 
+            "id": "3c1b4a89-c759-4168-8283-34d38790fc3e", 
+            "timestamp": "2014-12-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "eeb48459-0946-4ac7-bb61-40e80b458863", 
+            "RESEARCH_ORGANIZATION_ID": "0aa4ae30-1366-4fd2-b6b7-65967358d801", 
+            "id": "86bceebc-8e77-4e6c-9594-95b2e2aeaf58", 
+            "timestamp": "2015-11-15"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "24876308-076f-4fe7-9566-8ac9a59bb053", 
+            "RESEARCH_ORGANIZATION_ID": "ce4140bc-f64c-4582-9220-616eb17d6f6f", 
+            "id": "75a960a6-883d-432c-94f9-83a0958cfef1", 
+            "timestamp": "2016-06-04"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b8f7b1cb-2b27-4564-b8ce-8e9194989fbe", 
+            "RESEARCH_ORGANIZATION_ID": "5099ee2c-4f80-474d-a545-8a2eb98a7874", 
+            "id": "12ff7af1-c5c0-4cb5-9880-7f509755c3a4", 
+            "timestamp": "2014-11-11"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "cce20f8e-b068-4b64-a1be-c1d6b88f226a", 
+            "RESEARCH_ORGANIZATION_ID": "40936015-1c68-4d38-99d3-ac288b2c6a6f", 
+            "id": "432f8fab-c72a-4079-98c1-bc2b01a27bbb", 
+            "timestamp": "2015-11-26"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c05045df-0151-4790-8bba-8ef7d762e1d2", 
+            "RESEARCH_ORGANIZATION_ID": "cad93108-3a0d-4dec-8476-f488182bc7b9", 
+            "id": "b04285a4-a735-4b54-9953-aacfab16daec", 
+            "timestamp": "2014-11-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "5591ab91-32e0-4130-9696-38a9d5545c86", 
+            "RESEARCH_ORGANIZATION_ID": "698f89f2-aa7f-4416-b370-4721197c72c2", 
+            "id": "e6de3837-766d-4448-b1a0-02ff73d70279", 
+            "timestamp": "2016-03-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "8b8a57c4-03f8-42c8-be60-8c2967c62b80", 
+            "RESEARCH_ORGANIZATION_ID": "1b5a2bb8-1687-4a65-8409-2523063f2b6c", 
+            "id": "1155c3fd-912e-468a-aded-41013aa12d63", 
+            "timestamp": "2015-05-07"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "58afc638-4e12-429d-abf1-c7884a8d17da", 
+            "RESEARCH_ORGANIZATION_ID": "150ea4bd-2aa0-4ff5-bd04-17cd57eb35cf", 
+            "id": "e5198c71-33d7-47a9-928d-9305c015080a", 
+            "timestamp": "2015-10-22"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "d6e5c1f1-df6e-4bc0-94e7-702696321e85", 
+            "RESEARCH_ORGANIZATION_ID": "c9dc5a9b-4127-4a79-8e09-d937bb9101aa", 
+            "id": "48da452f-ae3a-4226-8e05-57a7d1e45e9a", 
+            "timestamp": "2014-12-18"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b2b6c26e-91a6-4270-9097-5505409d702f", 
+            "RESEARCH_ORGANIZATION_ID": "f3d66da5-798e-48db-813d-597181e2e469", 
+            "id": "727af4d0-5801-4660-9033-b7d8ede0f1e0", 
+            "timestamp": "2015-03-29"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "9b4dc402-c6a5-4a9c-bd72-540588797711", 
+            "RESEARCH_ORGANIZATION_ID": "1253d98b-196e-47e6-a125-ed6c7c68996e", 
+            "id": "427d53a7-c660-4850-9939-a9436f04692a", 
+            "timestamp": "2016-02-20"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "6df7088a-2358-41a5-acc8-f77c1fdbdfdf", 
+            "RESEARCH_ORGANIZATION_ID": "1a64e5b6-4535-4746-9d8d-15c11bdf0903", 
+            "id": "1e82055e-2e97-4606-bd9f-5419b15b1112", 
+            "timestamp": "2015-03-29"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "98d0b7df-3be4-4f61-8030-9eb29aa0a07a", 
+            "RESEARCH_ORGANIZATION_ID": "1efc68a0-87ee-407c-95ae-99d631b428b0", 
+            "id": "2c78cb8f-12a0-4948-8c51-81ab9cdd363b", 
+            "timestamp": "2014-11-10"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7d3d366c-26b4-4429-8cce-5c8be72375b5", 
+            "RESEARCH_ORGANIZATION_ID": "964ad97a-376d-4920-a90f-dcfd87a35234", 
+            "id": "591189e7-c322-492e-86f0-52f4eb5de27a", 
+            "timestamp": "2015-04-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "17934fa7-5cd5-420d-9b72-2c678f4e042c", 
+            "RESEARCH_ORGANIZATION_ID": "b8399bf8-8d4b-406d-8a76-8fd9e91a4b26", 
+            "id": "fb699743-1678-4070-bf78-929602ab8d83", 
+            "timestamp": "2015-09-21"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "336f392f-4c86-4c23-b633-03dc14bfa7f2", 
+            "RESEARCH_ORGANIZATION_ID": "ba517356-03c0-4584-ae09-e0b493edabbe", 
+            "id": "d4581b13-8cf0-422a-ae99-e6d6320fbf5a", 
+            "timestamp": "2016-03-01"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "2e5b8bbf-cacb-4b38-af6f-ec03544ee22d", 
+            "RESEARCH_ORGANIZATION_ID": "ebdf376d-1b38-426e-ab14-de5279da0e26", 
+            "id": "75a54d1d-c6d4-49ee-a63c-836c3cb1d654", 
+            "timestamp": "2016-06-02"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "e172d577-97ea-43a0-9ac0-c873bc04e22d", 
+            "RESEARCH_ORGANIZATION_ID": "f2d66487-4ae4-4b9b-bd3e-8619a347634c", 
+            "id": "9013d81e-4dd9-42d2-83bb-3babd9294ca7", 
+            "timestamp": "2015-07-14"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "886db623-27c8-401e-aaf7-b2659d5aa2f0", 
+            "RESEARCH_ORGANIZATION_ID": "fa8bd46d-126b-4cae-9ad7-0ce0b1239d15", 
+            "id": "2ab5f40b-716b-4674-8f2c-dfe5904ef7e9", 
+            "timestamp": "2016-01-20"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "3521f86c-b0f3-4f0b-a0c1-30a57e477390", 
+            "RESEARCH_ORGANIZATION_ID": "bb6d592d-0c6a-42cb-be4f-beae5e327afb", 
+            "id": "4c7b41fd-edb7-4bc8-aaf4-4a694cf078f1", 
+            "timestamp": "2015-03-12"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "8c254b38-8b9b-4971-9ed0-8b451817225a", 
+            "RESEARCH_ORGANIZATION_ID": "33e411c2-6cfb-44c7-8de0-d76f1a762009", 
+            "id": "a660e26b-f334-466a-8bc0-824daee3c5a3", 
+            "timestamp": "2015-01-04"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "91df18fd-38a2-4c59-a1c6-2f9a9005e5e6", 
+            "RESEARCH_ORGANIZATION_ID": "bddb6e71-355d-4739-be5f-6173e1ec6cb1", 
+            "id": "ae10497b-f97a-47a6-ac8d-24551df79474", 
+            "timestamp": "2015-05-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "238631ff-b92f-48cc-bcd3-aaa87515e61e", 
+            "RESEARCH_ORGANIZATION_ID": "23302012-689e-4078-b458-800e9f3fa538", 
+            "id": "d915e0f5-1fac-4c05-ab3f-cfd617d92760", 
+            "timestamp": "2015-08-22"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "24eb7346-6c67-4491-a61f-11247554fe68", 
+            "RESEARCH_ORGANIZATION_ID": "006bb501-846f-4442-bcdf-40d304023d5d", 
+            "id": "ca19fd6e-a9e8-451f-ad67-4ac9cf324aa8", 
+            "timestamp": "2015-01-22"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c1be59c1-7f75-402b-9559-b5903b19cd62", 
+            "RESEARCH_ORGANIZATION_ID": "3345a9eb-ed38-4771-915b-e5d7d2879ada", 
+            "id": "28885ef3-6fb0-4f8e-97ce-ee2135e3aba1", 
+            "timestamp": "2015-12-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "8c034179-36ce-4185-9312-903bcf27607f", 
+            "RESEARCH_ORGANIZATION_ID": "6ebc3bc5-1005-446e-b667-f79ac608db50", 
+            "id": "e26e60ca-245a-4e2e-83cc-d95938035ec1", 
+            "timestamp": "2015-04-25"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "395979d9-6aab-4a69-b660-0cf4d2790334", 
+            "RESEARCH_ORGANIZATION_ID": "87cdf8b1-c884-4b08-9c9b-582cebeb7b69", 
+            "id": "720d82f1-08d3-443e-975c-f115dd22df9f", 
+            "timestamp": "2014-10-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "86bfe898-90b3-459a-88f3-9242b497d30f", 
+            "RESEARCH_ORGANIZATION_ID": "61450304-74a2-4100-933a-fdb8ebf6f159", 
+            "id": "88d94ef8-4829-458e-8147-77fa629da471", 
+            "timestamp": "2015-12-20"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "9a1679ef-2e08-4369-aba8-0b15ce6cab63", 
+            "RESEARCH_ORGANIZATION_ID": "3195a97a-7094-4631-b39a-41d1b9af167c", 
+            "id": "f56cb868-d8b7-4153-8618-6bc499c6655a", 
+            "timestamp": "2014-09-03"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7f2a0176-6192-439c-895a-9284339fd16d", 
+            "RESEARCH_ORGANIZATION_ID": "60338ac7-05ea-4c1e-99c1-94d2bcd3479e", 
+            "id": "45706ea9-383d-4942-9a73-d3e496d584cb", 
+            "timestamp": "2014-09-04"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7964bb5f-f1d6-4eac-ba4a-f5d8bb281d5c", 
+            "RESEARCH_ORGANIZATION_ID": "bef17763-a54c-4a87-88ab-598e7238153f", 
+            "id": "cf0a1e05-ecf2-4057-ad91-b3a5fe010a13", 
+            "timestamp": "2015-04-09"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "d0323dbc-3f67-40ec-9294-82cf669d5719", 
+            "RESEARCH_ORGANIZATION_ID": "f29f324d-44b2-41a0-bf2b-7ea2002f0a2b", 
+            "id": "cb98f310-4d50-4920-b3cb-9be833fdc5b4", 
+            "timestamp": "2016-06-08"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "49d89151-3ecd-468d-bc13-3adf95f939ee", 
+            "RESEARCH_ORGANIZATION_ID": "4ca0279f-aab0-41a7-85e8-9b158a499e16", 
+            "id": "6a669ed5-7407-4733-ab5e-c29edc69787a", 
+            "timestamp": "2015-10-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "2ff26df2-34fd-4811-80b3-de820f6d8c90", 
+            "RESEARCH_ORGANIZATION_ID": "50121ef3-5328-4d0a-bb94-d730213a9d65", 
+            "id": "9d29ccac-e91a-44be-ae40-6d6636e670dd", 
+            "timestamp": "2014-10-16"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "132689de-c311-4b92-b6a1-5206bbafaa70", 
+            "RESEARCH_ORGANIZATION_ID": "1797c7a3-feb3-43f0-9b59-fcbe571c9ef5", 
+            "id": "a8d138c1-91bd-46b9-9d81-e06a77aba97d", 
+            "timestamp": "2014-11-02"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b59d904d-b933-4a11-8261-29292c2dd851", 
+            "RESEARCH_ORGANIZATION_ID": "51785ea1-6593-43d4-98f8-fead603b628f", 
+            "id": "71a2401f-8a46-49d3-a299-0cabef190be3", 
+            "timestamp": "2016-01-17"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "b6f91de2-9530-4c20-9608-034d7800c3e4", 
+            "RESEARCH_ORGANIZATION_ID": "b800a45b-37db-4104-a15f-d3ee367605df", 
+            "id": "f0724367-b0c2-457d-be28-775effbfdb6a", 
+            "timestamp": "2015-06-08"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "ae7b7006-9201-4b52-a73e-9f214b68de31", 
+            "RESEARCH_ORGANIZATION_ID": "13c65c3e-1196-4a91-807c-bbd1702e27cc", 
+            "id": "aa6f66e8-db98-4d9e-af9c-bb238ec7e208", 
+            "timestamp": "2014-08-27"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "5b832a5c-a140-4e79-b993-1d50be9603f6", 
+            "RESEARCH_ORGANIZATION_ID": "399ddadc-6572-4012-948f-e1fa6025a778", 
+            "id": "992d7d8b-83e1-4d99-a243-fd8b8c23c589", 
+            "timestamp": "2014-10-21"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "a6dcad26-30da-4fc6-82b9-7cac4e471017", 
+            "RESEARCH_ORGANIZATION_ID": "6892edc3-205e-4fdb-9c79-76048901492b", 
+            "id": "911f4b97-17a7-4afc-9b89-9ea747b6a065", 
+            "timestamp": "2016-06-28"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "7d15f285-0bb2-469f-b703-f12dcf12ed52", 
+            "RESEARCH_ORGANIZATION_ID": "a5d99a91-75f4-48bd-98ae-4fc2a1e424ba", 
+            "id": "38f1b597-9f3a-41eb-8d8c-c3f0526eff3c", 
+            "timestamp": "2014-11-18"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "4f086462-760e-4c24-a979-bb147be61664", 
+            "RESEARCH_ORGANIZATION_ID": "b6bed929-4cdd-441e-9ff1-8404225d16fc", 
+            "id": "c3565c66-b5ec-457d-8bd0-9f4e75926cf8", 
+            "timestamp": "2015-06-03"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "793d5c12-0fd0-4a71-b580-6be59ab8433a", 
+            "RESEARCH_ORGANIZATION_ID": "8aa04196-2cf5-4905-a281-13b1c2f9d9ed", 
+            "id": "8bef1e56-6901-48e1-8d8b-6ee5a300bf16", 
+            "timestamp": "2015-11-13"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "5591ab91-32e0-4130-9696-38a9d5545c86", 
+            "RESEARCH_ORGANIZATION_ID": "33b71049-0900-4e38-b29f-e929160dea48", 
+            "id": "a97fbadd-c1e7-49d9-b91c-99e0d0b634d4", 
+            "timestamp": "2014-12-02"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "1579a644-4db9-4e68-a5d6-5ab012ddeeb6", 
+            "RESEARCH_ORGANIZATION_ID": "ecc20d7c-7bec-4d61-8fac-c9ec27332c8b", 
+            "id": "d60cdf8b-4143-4086-aea0-8b853e2a7c24", 
+            "timestamp": "2014-10-03"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "f476f25c-0015-47ec-87a6-936f10914fdd", 
+            "RESEARCH_ORGANIZATION_ID": "03d62531-ae15-4a9d-b21d-4281f0bee1b3", 
+            "id": "b5507ff8-68c9-43c6-843d-51612b35851d", 
+            "timestamp": "2015-10-24"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "c1b88971-d640-43bf-8ffe-6306d32936c9", 
+            "RESEARCH_ORGANIZATION_ID": "55531dbe-8c2a-4828-a707-80b7e018b85a", 
+            "id": "0b38ec04-89ef-4c73-855e-2d0bcf8739f9", 
+            "timestamp": "2015-06-28"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION_RESEARCHER_EDGE", 
+        "payload": {
+            "RESEARCHER_ID": "2595ca43-507e-4009-b337-9defef275e52", 
+            "RESEARCH_ORGANIZATION_ID": "be143458-8038-4bf4-85ca-e8fc99eae28d", 
+            "id": "23482beb-9c13-4d2a-acae-696b8011e4d1", 
+            "timestamp": "2016-08-02"
+        }
+    }
+]
