@@ -1,0 +1,1487 @@
+[
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Baton Rouge", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AaronIDavidson@superrito.com", 
+            "id": "95fa5d11-433e-4336-9b8b-555cc6e4e934", 
+            "state": "LA", 
+            "street": "1562 Washburn Street", 
+            "telephone": "225-317-4310", 
+            "zip": "70806"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Bismarck", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LoisJMcNabb@armyspy.com", 
+            "id": "80fd5577-dd5a-4e6a-8a9e-0552632e442f", 
+            "state": "ND", 
+            "street": "3515 Walnut Drive", 
+            "telephone": "701-391-5003", 
+            "zip": "58506"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "San Diego", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarlonSCarter@fleckens.hu", 
+            "id": "8a699178-f611-4bd7-b8b0-22206db5f7a4", 
+            "state": "CA", 
+            "street": "2044 Hamill Avenue", 
+            "telephone": "858-373-7013", 
+            "zip": "92111"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Metairie", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DorisRReed@fleckens.hu", 
+            "id": "787d9f9c-961c-4025-aa09-22efe2c33851", 
+            "state": "LA", 
+            "street": "2539 Rose Avenue", 
+            "telephone": "504-344-5623", 
+            "zip": "70007"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Cranston", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CynthiaCSaephan@armyspy.com", 
+            "id": "761b1c26-86e2-4c1e-8f90-acba7d8e05e5", 
+            "state": "RI", 
+            "street": "2623 Myra Street", 
+            "telephone": "401-477-0863", 
+            "zip": "02910"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Tulsa", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "WinstonCGrosz@gustr.com", 
+            "id": "12fb9a14-82f2-4d45-9d16-c7c4c9e94e7c", 
+            "state": "OK", 
+            "street": "2272 Hornor Avenue", 
+            "telephone": "918-384-3717", 
+            "zip": "74145"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Bentonville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MichaelGBeck@teleworm.us", 
+            "id": "ac8269da-3ffe-41a0-8504-5449a785a6d7", 
+            "state": "AR", 
+            "street": "54 Midway Road", 
+            "telephone": "479-696-4664", 
+            "zip": "72712"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "French Gulch", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DianaMCook@dayrep.com", 
+            "id": "0d62abbf-a468-481c-a654-63f1801cfa2e", 
+            "state": "CA", 
+            "street": "2372 Riverwood Drive", 
+            "telephone": "530-359-6364", 
+            "zip": "96033"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Westbrook", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LeoABraun@teleworm.us", 
+            "id": "26de2daf-46b6-4667-b874-591a9707fd49", 
+            "state": "ME", 
+            "street": "4158 Upton Avenue", 
+            "telephone": "207-915-4211", 
+            "zip": "04092"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Boca Raton", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EmmaPWeiler@cuvox.de", 
+            "id": "575957da-3a9d-4823-87b7-57b02e60f61e", 
+            "state": "FL", 
+            "street": "2102 Holt Street", 
+            "telephone": "561-298-0314", 
+            "zip": "33487"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Gatesville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AntonioDRose@teleworm.us", 
+            "id": "8cbe7746-518a-4738-9c22-2f95c879ff95", 
+            "state": "TX", 
+            "street": "1333 Hill Haven Drive", 
+            "telephone": "254-248-9530", 
+            "zip": "76528"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "San Antonio", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KevinAPierce@dayrep.com", 
+            "id": "92d6d11a-c74b-48c6-8808-62480c84e421", 
+            "state": "TX", 
+            "street": "3912 Weekley Street", 
+            "telephone": "210-351-1030", 
+            "zip": "78205"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Cincinnati", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RickeyCGreene@gustr.com", 
+            "id": "78baa3ab-1c84-4b23-a6b0-709cc7a4de75", 
+            "state": "KY", 
+            "street": "4375 Black Stallion Road", 
+            "telephone": "859-445-8195", 
+            "zip": "45214"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Silver Spring", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "OraJBoren@gustr.com", 
+            "id": "f1d3550a-c03f-4469-9304-d3a5d6c49eae", 
+            "state": "MD", 
+            "street": "4609 Lake Floyd Circle", 
+            "telephone": "301-930-5202", 
+            "zip": "20910"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Manchester", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "SaundraLWade@teleworm.us", 
+            "id": "d9e4eeff-2972-4baf-ba4d-ab9c88677803", 
+            "state": "MO", 
+            "street": "1588 Blane Street", 
+            "telephone": "314-651-8620", 
+            "zip": "63011"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "New Brunswick", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "VirginiaJDay@dayrep.com", 
+            "id": "f3e02e9f-c5cf-448e-b325-241d24ab460e", 
+            "state": "NJ", 
+            "street": "4068 Pennsylvania Avenue", 
+            "telephone": "732-394-3413", 
+            "zip": "08901"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Tahoe City", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AnnettePParker@fleckens.hu", 
+            "id": "14817d32-9b66-46f2-a12d-0cb64df39e17", 
+            "state": "CA", 
+            "street": "826 Eagles Nest Drive", 
+            "telephone": "530-583-3408", 
+            "zip": "94730"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Savage", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JamesAFuller@armyspy.com", 
+            "id": "76c597bd-e664-4ad4-8595-50e631bb27fb", 
+            "state": "MD", 
+            "street": "2051 Cost Avenue", 
+            "telephone": "301-406-6469", 
+            "zip": "20763"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Owens Cross Roads", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TinaCBently@einrot.com", 
+            "id": "03c34d36-e197-4f5d-b9a1-723c802b7ed7", 
+            "state": "AL", 
+            "street": "272 Ferry Street", 
+            "telephone": "256-725-3661", 
+            "zip": "35763"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Sioux City", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MitchellRHorton@armyspy.com", 
+            "id": "805dea0b-74b7-4bf1-9a6b-0cbf13728897", 
+            "state": "IA", 
+            "street": "3748 Woodland Drive", 
+            "telephone": "712-204-3383", 
+            "zip": "51101"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Lufkin", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MinnieRAsh@rhyta.com", 
+            "id": "cf02f1d5-6395-411f-a052-04f039cb66d1", 
+            "state": "TX", 
+            "street": "945 Woodrow Way", 
+            "telephone": "936-461-4937", 
+            "zip": "75904"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Portland", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JeanNChambers@rhyta.com", 
+            "id": "a7ade295-c6cd-4200-9147-d7a75fbab146", 
+            "state": "OR", 
+            "street": "680 Kincheloe Road", 
+            "telephone": "503-499-0440", 
+            "zip": "97205"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Halibut Cove", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "GregoryLLewis@fleckens.hu", 
+            "id": "9fa4dd24-dd3d-43f4-bb02-b95f2702e4ca", 
+            "state": "AK", 
+            "street": "3758 Veltri Drive", 
+            "telephone": "907-296-9694", 
+            "zip": "99603"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Boston", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JenniferJZiegler@einrot.com", 
+            "id": "7b0e9a01-287e-4b44-ae3d-cd893ee0b71c", 
+            "state": "MA", 
+            "street": "1191 Romano Street", 
+            "telephone": "781-343-4413", 
+            "zip": "02110"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Irvine", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeweyMStevenson@teleworm.us", 
+            "id": "b3b3f0d9-1da5-4303-922c-2b764e599a2d", 
+            "state": "CA", 
+            "street": "3866 Hillcrest Lane", 
+            "telephone": "949-923-1483", 
+            "zip": "92718"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Gibsonia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RobertDCook@jourrapide.com", 
+            "id": "93189a22-dc7c-4d72-89b8-37916c999b5b", 
+            "state": "PA", 
+            "street": "3601 Shinn Avenue", 
+            "telephone": "724-506-8490", 
+            "zip": "15044"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Providence", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "SilviaMMartin@gustr.com", 
+            "id": "78534cb2-1dc4-4401-b2b5-f2b0242f961c", 
+            "state": "RI", 
+            "street": "333 Diamond Cove", 
+            "telephone": "401-303-3565", 
+            "zip": "02908"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Lyndhurst", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JesseBJohnson@dayrep.com", 
+            "id": "d51a2535-e941-4f2f-856d-e2fb562701ac", 
+            "state": "NJ", 
+            "street": "2911 Walnut Avenue", 
+            "telephone": "201-495-1612", 
+            "zip": "07071"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Stockton", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DavidECornett@jourrapide.com", 
+            "id": "cb189750-42be-4cb7-b93d-51edc78a3dc6", 
+            "state": "CA", 
+            "street": "2183 Maple Avenue", 
+            "telephone": "209-265-7748", 
+            "zip": "95204"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Woodland Hills", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RenaKDudley@cuvox.de", 
+            "id": "8ef21fce-44bb-4624-be11-5a29cf9b991c", 
+            "state": "CA", 
+            "street": "4944 New York Avenue", 
+            "telephone": "818-228-8613", 
+            "zip": "91303"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Clanton", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LewisBHerndon@fleckens.hu", 
+            "id": "ae25ab9c-7f91-4641-8c3f-1129fca6a352", 
+            "state": "AL", 
+            "street": "63 Retreat Avenue", 
+            "telephone": "205-303-8945", 
+            "zip": "35045"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Greenville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JosephDDaniel@rhyta.com", 
+            "id": "3aa2b151-4991-4ef1-bbe7-8696ec6af190", 
+            "state": "SC", 
+            "street": "1838 Traction Street", 
+            "telephone": "864-490-9698", 
+            "zip": "29607"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Huntington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "PhyllisDOliver@dayrep.com", 
+            "id": "337529a0-fa2b-41e3-a38d-fe0b75144150", 
+            "state": "NY", 
+            "street": "2447 Hoffman Avenue", 
+            "telephone": "917-929-4468", 
+            "zip": "11743"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Phoenix", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JudithAShelton@fleckens.hu", 
+            "id": "8d3a3c3d-c408-465c-a7f4-725500977aaa", 
+            "state": "AZ", 
+            "street": "1427 Dogwood Road", 
+            "telephone": "602-746-7089", 
+            "zip": "85040"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Conway", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AmyCVance@cuvox.de", 
+            "id": "a37575ea-f21c-4a2a-9e6f-8a2a0943bd89", 
+            "state": "SC", 
+            "street": "2440 Kessla Way", 
+            "telephone": "843-347-5633", 
+            "zip": "29528"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Mansfield", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HelenSStinnett@fleckens.hu", 
+            "id": "c56ceb4a-3c8b-4726-b3c2-021464ac54ea", 
+            "state": "MA", 
+            "street": "2452 Kennedy Court", 
+            "telephone": "774-535-5189", 
+            "zip": "02048"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Milwaukee", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ObduliaERedden@dayrep.com", 
+            "id": "0486fc51-2db2-4940-8815-d1eea0111dc8", 
+            "state": "WI", 
+            "street": "1499 Larry Street", 
+            "telephone": "414-855-5374", 
+            "zip": "53221"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Oxford", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoseJRutherford@cuvox.de", 
+            "id": "13449121-1eb6-4315-83d0-4729cd07471a", 
+            "state": "AL", 
+            "street": "1120 Maple Lane", 
+            "telephone": "256-499-0628", 
+            "zip": "36203"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Columbia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "PatrickAHanson@gustr.com", 
+            "id": "aad9e9fb-f9da-4bca-a9fb-e1d5bf3154e7", 
+            "state": "SC", 
+            "street": "3911 Still Pastures Drive", 
+            "telephone": "803-420-4876", 
+            "zip": "29210"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Pierre", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JaredEGonzalez@jourrapide.com", 
+            "id": "43469691-005b-4525-9810-71494e3adcac", 
+            "state": "SD", 
+            "street": "1518 Leroy Lane", 
+            "telephone": "605-945-3058", 
+            "zip": "57501"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Burrows", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CharlesCMorton@cuvox.de", 
+            "id": "48d8ccf6-c949-4e48-ba70-8134c30ae48c", 
+            "state": "IN", 
+            "street": "1791 Sand Fork Road", 
+            "telephone": "574-652-8335", 
+            "zip": "46916"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Bloomington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HazelMRagland@armyspy.com", 
+            "id": "6c5cf262-0766-4163-b1fd-c77e322ae312", 
+            "state": "IN", 
+            "street": "1547 Stratford Park", 
+            "telephone": "812-778-0016", 
+            "zip": "47408"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Olympia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoeECoca@cuvox.de", 
+            "id": "34a3f5d4-cb9b-42c3-b518-8f0d4bbfc014", 
+            "state": "WA", 
+            "street": "2280 Terra Street", 
+            "telephone": "360-352-9920", 
+            "zip": "98501"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Brookfield", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KatinaDHalfacre@rhyta.com", 
+            "id": "9a5acb18-5e68-4227-b0f6-02b520e68af8", 
+            "state": "WI", 
+            "street": "420 Oakridge Farm Lane", 
+            "telephone": "262-402-8364", 
+            "zip": "53005"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Orlando", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TinaGStevens@fleckens.hu", 
+            "id": "0f6f5adb-a567-4d8e-8664-73a405e58672", 
+            "state": "FL", 
+            "street": "2067 Linden Avenue", 
+            "telephone": "407-603-0968", 
+            "zip": "32810"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Eagleville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarySGriffin@gustr.com", 
+            "id": "d45e7aaa-50c9-470e-91f5-d9da4b9f81a1", 
+            "state": "DE", 
+            "street": "1017 Argonne Street", 
+            "telephone": "302-276-9992", 
+            "zip": "19403"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Toledo", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CarlLJohnson@dayrep.com", 
+            "id": "52bc81a6-17dd-465c-a919-fbd215a0a602", 
+            "state": "OH", 
+            "street": "3056 Upland Avenue", 
+            "telephone": "419-944-9557", 
+            "zip": "43615"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Clarksburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NancyBSnow@gustr.com", 
+            "id": "f14145f7-51c9-48dc-80a5-985c9a5be1b2", 
+            "state": "WV", 
+            "street": "2426 Columbia Mine Road", 
+            "telephone": "304-554-8006", 
+            "zip": "26301"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Euless", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KatherineSHudson@jourrapide.com", 
+            "id": "2837358d-3bb4-4c11-b6ba-20923395d58e", 
+            "state": "TX", 
+            "street": "1255 Sycamore Circle", 
+            "telephone": "682-429-0602", 
+            "zip": "76039"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Lansing", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoannSBlocker@rhyta.com", 
+            "id": "42971d47-0bee-407a-b1e9-2651ea34b0d2", 
+            "state": "MI", 
+            "street": "1988 Amethyst Drive", 
+            "telephone": "517-386-1241", 
+            "zip": "48906"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Los Angeles", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MaryDCordeiro@jourrapide.com", 
+            "id": "6912fafe-80e9-4a18-9497-81210da9ad40", 
+            "state": "CA", 
+            "street": "3500 Sumner Street", 
+            "telephone": "310-649-1062", 
+            "zip": "90045"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Grand Island", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AbrahamSDale@armyspy.com", 
+            "id": "1bd4a0bc-ddda-4de9-a400-6c5db5323cfa", 
+            "state": "NE", 
+            "street": "708 Romrog Way", 
+            "telephone": "308-258-2164", 
+            "zip": "68803"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Worthington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ShawnREsparza@cuvox.de", 
+            "id": "2eda7689-29b2-4e3f-ad44-d957f0d0765c", 
+            "state": "OH", 
+            "street": "1321 Old House Drive", 
+            "telephone": "740-916-3357", 
+            "zip": "43085"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Vandalia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarshaDMonarrez@armyspy.com", 
+            "id": "c05d0a2c-d32b-456c-a3b0-ccb20a008443", 
+            "state": "MO", 
+            "street": "3831 Oak Ridge Drive", 
+            "telephone": "573-594-8523", 
+            "zip": "63382"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Lafayette", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JohnMAnderson@superrito.com", 
+            "id": "b1bc5405-79cf-4720-8573-acc5242903ff", 
+            "state": "IN", 
+            "street": "1082 Sugarfoot Lane", 
+            "telephone": "765-448-4116", 
+            "zip": "47904"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "New York", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DonaldPSmith@cuvox.de", 
+            "id": "ec2fc7ee-a102-41b3-a781-456d29867832", 
+            "state": "NY", 
+            "street": "976 Bicetown Road", 
+            "telephone": "917-344-7588", 
+            "zip": "10004"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Albany", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LavonneEHubbard@jourrapide.com", 
+            "id": "4bc83f01-41b7-42b7-9154-36cceaba7626", 
+            "state": "NY", 
+            "street": "4286 West Virginia Avenue", 
+            "telephone": "518-837-7251", 
+            "zip": "12207"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Parsippany", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KyleEMcCarthy@fleckens.hu", 
+            "id": "e6b68cc6-6ad8-47ca-b32e-72a3e020c8c2", 
+            "state": "NJ", 
+            "street": "2477 Duke Lane", 
+            "telephone": "732-662-9995", 
+            "zip": "07054"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "West Roxbury", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LuciaHMulder@einrot.com", 
+            "id": "ab2370e8-521e-4acb-a5bd-54ce62a6084c", 
+            "state": "MA", 
+            "street": "485 Lyon Avenue", 
+            "telephone": "508-951-1821", 
+            "zip": "02132"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Chetek", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ErnestMFinn@gustr.com", 
+            "id": "8f46d39e-53e6-40fe-aead-f71e96e5d20a", 
+            "state": "WI", 
+            "street": "2866 Orphan Road", 
+            "telephone": "715-925-5723", 
+            "zip": "54728"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Raleigh", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MonroeTEgger@rhyta.com", 
+            "id": "a3ec8df2-1919-4c5c-a701-a068af7578e5", 
+            "state": "NC", 
+            "street": "4955 Johnson Street", 
+            "telephone": "919-874-3423", 
+            "zip": "27604"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Marlboro", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NilaLClark@fleckens.hu", 
+            "id": "f69cfad9-4495-4c18-b0e4-1d7c28711750", 
+            "state": "MA", 
+            "street": "1960 Kovar Road", 
+            "telephone": "508-624-7464", 
+            "zip": "01752"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Duluth", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RomeoAMagee@fleckens.hu", 
+            "id": "4acf6ca1-5180-410d-8efa-5b4590559f3f", 
+            "state": "MN", 
+            "street": "4753 Ferrell Street", 
+            "telephone": "218-447-2208", 
+            "zip": "55802"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Peoria", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "GaryROliphant@einrot.com", 
+            "id": "2467a97c-2a06-4842-ba3a-a33cd41d2566", 
+            "state": "IL", 
+            "street": "156 Simpson Street", 
+            "telephone": "309-842-6211", 
+            "zip": "61602"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "East Providence", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HerbertBTemples@teleworm.us", 
+            "id": "6b8d2573-53bb-4d21-8ffd-27985a5ceb5a", 
+            "state": "RI", 
+            "street": "331 Myra Street", 
+            "telephone": "401-499-7043", 
+            "zip": "02914"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Park Falls", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HenryCSetzer@armyspy.com", 
+            "id": "94dc0441-b383-4f29-a1ce-0762832f0138", 
+            "state": "WI", 
+            "street": "1341 Tea Berry Lane", 
+            "telephone": "715-744-6595", 
+            "zip": "54552"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Crawfordville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LorenaTRagin@cuvox.de", 
+            "id": "55b9c82b-718c-40ae-8736-233fa8520bfa", 
+            "state": "FL", 
+            "street": "477 American Drive", 
+            "telephone": "850-962-8808", 
+            "zip": "32327"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Salinas", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TeresaECook@superrito.com", 
+            "id": "fc2a034f-1b88-4fe8-bc71-ff066baede22", 
+            "state": "CA", 
+            "street": "826 Cemetery Street", 
+            "telephone": "831-844-1675", 
+            "zip": "93901"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Southfield", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HarrietteILarson@teleworm.us", 
+            "id": "07ca6c43-7f26-4382-b724-bb63fbbf5c92", 
+            "state": "MI", 
+            "street": "1166 Charles Street", 
+            "telephone": "734-494-7370", 
+            "zip": "48235"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Cleveland", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LisaRSchulz@cuvox.de", 
+            "id": "b198864f-7001-4c04-b806-3e1781f38481", 
+            "state": "OH", 
+            "street": "1978 Bingamon Road", 
+            "telephone": "440-520-8646", 
+            "zip": "44115"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Los Angeles", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TeodoroGBailey@cuvox.de", 
+            "id": "61e864c0-b053-4097-9642-8e7b07483077", 
+            "state": "CA", 
+            "street": "4663 Meadowbrook Mall Road", 
+            "telephone": "310-843-0671", 
+            "zip": "90067"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Quincy", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "PatricaANeely@superrito.com", 
+            "id": "3e9b8025-6938-46a6-8838-a5e695c69ec9", 
+            "state": "MA", 
+            "street": "1820 Ferguson Street", 
+            "telephone": "508-462-1014", 
+            "zip": "02169"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Bronx", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AlbertRLopez@cuvox.de", 
+            "id": "b7f47681-9727-4f67-b4bd-1c8333678fa5", 
+            "state": "NY", 
+            "street": "871 Patterson Road", 
+            "telephone": "718-828-1852", 
+            "zip": "10461"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "New York", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MaryKHiggins@dayrep.com", 
+            "id": "b56a8674-2f76-4220-b120-8b0710abeaa2", 
+            "state": "NY", 
+            "street": "1940 Turkey Pen Road", 
+            "telephone": "917-275-9507", 
+            "zip": "10038"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Saint Paul", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarileeMJackson@einrot.com", 
+            "id": "a5bffab1-ffa2-40f1-b590-6103e9a9ca0f", 
+            "state": "MN", 
+            "street": "4318 B Street", 
+            "telephone": "651-610-2360", 
+            "zip": "55104"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Irvine", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HeribertoVFike@dayrep.com", 
+            "id": "5584ceaa-4709-4f6b-9c59-9e9a391d660c", 
+            "state": "CA", 
+            "street": "935 Hillcrest Lane", 
+            "telephone": "949-786-5015", 
+            "zip": "92714"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Salt Lake City", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JamesBPitts@fleckens.hu", 
+            "id": "af0f0a07-bbff-4779-9640-cacd1ec997c7", 
+            "state": "UT", 
+            "street": "4303 Tori Lane", 
+            "telephone": "801-587-0392", 
+            "zip": "84113"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Richardson", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JeannetteMSmith@cuvox.de", 
+            "id": "5cdbf1a4-2ee3-4b6f-bcbb-de8ea627f5a5", 
+            "state": "TX", 
+            "street": "2461 Ash Street", 
+            "telephone": "972-783-2998", 
+            "zip": "75081"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Naperville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HollySJohnson@einrot.com", 
+            "id": "44df7fec-df93-4b1e-bb9c-3ac903d114cf", 
+            "state": "IL", 
+            "street": "3624 Millbrook Road", 
+            "telephone": "630-778-9949", 
+            "zip": "60540"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Medford", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HenryMHarris@dayrep.com", 
+            "id": "72b40a7a-e653-4fbd-9cd4-c7b4c3c7515f", 
+            "state": "OR", 
+            "street": "1708 Buena Vista Avenue", 
+            "telephone": "541-734-0710", 
+            "zip": "97501"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Winchester", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "WilliamMMcCarty@rhyta.com", 
+            "id": "3fb14dea-40ae-4c56-86fc-6ff2faea23ae", 
+            "state": "KY", 
+            "street": "435 Counts Lane", 
+            "telephone": "859-954-0543", 
+            "zip": "40391"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Chicago", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DorothyASim@armyspy.com", 
+            "id": "06ac47a4-b519-4cda-ae49-bdd25dff2594", 
+            "state": "IL", 
+            "street": "655 Cherry Camp Road", 
+            "telephone": "773-484-5628", 
+            "zip": "60605"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Warroad", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HerbertCGayle@einrot.com", 
+            "id": "9c1a3949-a8a0-4667-8e63-0d04b9356558", 
+            "state": "MN", 
+            "street": "57 Ferrell Street", 
+            "telephone": "218-386-8463", 
+            "zip": "56763"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Anaheim", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MollyRJohnson@armyspy.com", 
+            "id": "d04e9f92-4803-471b-ba77-f7332b71e6a6", 
+            "state": "CA", 
+            "street": "599 Maple Street", 
+            "telephone": "714-394-2940", 
+            "zip": "92801"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Lenora", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeniseJMcAllister@superrito.com", 
+            "id": "5fe63455-ff64-4faa-b6fd-10e234906ea3", 
+            "state": "KS", 
+            "street": "4782 Sherman Street", 
+            "telephone": "785-854-9332", 
+            "zip": "67645"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Topeka", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeborahJHodge@teleworm.us", 
+            "id": "ebf8b9cd-460e-4763-a613-10d389db2f92", 
+            "state": "KS", 
+            "street": "3399 Hummingbird Way", 
+            "telephone": "785-214-0559", 
+            "zip": "66603"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Wicksburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DwayneJMadden@rhyta.com", 
+            "id": "0d50844d-5d4f-428a-9321-e2a2e4ebd416", 
+            "state": "AL", 
+            "street": "4073 Franklin Street", 
+            "telephone": "334-692-9709", 
+            "zip": "36301"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Baltimore", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EarleanJArmstrong@gustr.com", 
+            "id": "c6b3f42d-36d0-4dbc-ab12-af92cc5ad15c", 
+            "state": "MD", 
+            "street": "1852 Harron Drive", 
+            "telephone": "443-568-1300", 
+            "zip": "21201"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Bridgeport", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RoseJKavanagh@cuvox.de", 
+            "id": "5a7abf31-e2c1-4a4c-90f2-2999a58aa8d1", 
+            "state": "NJ", 
+            "street": "4295 Metz Lane", 
+            "telephone": "856-954-9807", 
+            "zip": "08014"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Brunswick", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JohnKRodriguez@teleworm.us", 
+            "id": "0be3eaa0-88ee-48b4-970b-ac4591056eab", 
+            "state": "NE", 
+            "street": "641 North Avenue", 
+            "telephone": "402-842-7648", 
+            "zip": "68720"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Durham", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KristinPHenson@cuvox.de", 
+            "id": "125426fa-bfe4-4dc0-ae92-66d719feeb7f", 
+            "state": "NC", 
+            "street": "1112 Dola Mine Road", 
+            "telephone": "919-354-9481", 
+            "zip": "27701"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Waynesboro", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CarolAClevenger@einrot.com", 
+            "id": "594222d0-4ff0-4e78-b1a8-2035d1506f9e", 
+            "state": "VA", 
+            "street": "3271 Maxwell Farm Road", 
+            "telephone": "540-238-7065", 
+            "zip": "22980"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Long Branch", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoelBRankin@teleworm.us", 
+            "id": "9daeac9a-64cc-487f-82fc-bcace5b81714", 
+            "state": "NJ", 
+            "street": "112 Webster Street", 
+            "telephone": "732-571-6215", 
+            "zip": "07740"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Owensboro", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EmilyHTapia@superrito.com", 
+            "id": "8399bb6a-5cb6-4707-9670-152abe1fe3cf", 
+            "state": "KY", 
+            "street": "2673 Glen Street", 
+            "telephone": "270-302-9938", 
+            "zip": "42301"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Alexandria", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DavidFBennett@superrito.com", 
+            "id": "24f3b2cd-6251-4ecf-a2d1-28124521d834", 
+            "state": "VA", 
+            "street": "33 Forest Drive", 
+            "telephone": "703-921-6800", 
+            "zip": "22310"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Augusta", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EdgarJBergeron@jourrapide.com", 
+            "id": "67f01dda-5c39-478b-85ac-ae87dc485a32", 
+            "state": "GA", 
+            "street": "943 Riverside Drive", 
+            "telephone": "706-849-8026", 
+            "zip": "30901"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Whitestone", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "BrandyRCausey@einrot.com", 
+            "id": "2d101ebe-dd2c-4fe5-8432-6d8a1787e84d", 
+            "state": "NY", 
+            "street": "4179 Duncan Avenue", 
+            "telephone": "917-584-3927", 
+            "zip": "11357"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Delray Beach", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "PhillipEMaya@einrot.com", 
+            "id": "080d2011-f478-4eed-9945-9b7fd1455abe", 
+            "state": "FL", 
+            "street": "1152 Wyatt Street", 
+            "telephone": "561-498-6340", 
+            "zip": "33484"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "RESEARCH_ORGANIZATION", 
+        "payload": {
+            "city": "Monroe", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KellyJPerkins@armyspy.com", 
+            "id": "5d906dcf-5839-4c9b-a8f7-223de233761a", 
+            "state": "GA", 
+            "street": "3867 Fowler Avenue", 
+            "telephone": "770-267-4199", 
+            "zip": "30655"
+        }
+    }
+]

@@ -8,9 +8,12 @@ Generates fake patient and health data into a graph model for testing
 
 ###  ./seed2json.py
 * Python script that builds json files (lists of entity add commands) of fake patient data from seed file
+* Warning - running this script will delete existing output directory
 
 ### ./output 
 * Contains files of json commands for depositing generated health info to a graph database
+* This is wiped on each run of ./seed2json.py
+* This is checked in to save generation time
 
 ## Names seed file
 Contains the following information from which entities can be built
@@ -50,7 +53,7 @@ The seed2json.py generates a simplified data model for testing...
 * **Researcher**: 
   * Currently generating 1,000 researchers
   * Researchers are associated with a research organization
-# **Edges**:
+* **Edges**:
   * Currently generating one random edge per encounter to research org, doctor, hospital, patient, and clearing house.
   * Currently generating one random research org edge per clearing house.
   * Currently generating one random research org edge per researcher.

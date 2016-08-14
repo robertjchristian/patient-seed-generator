@@ -1,0 +1,1586 @@
+[
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Seminole", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JosephKJordon@cuvox.de", 
+            "id": "8f138ba8-cfb6-4caf-a789-b67fb787fa83", 
+            "name": "JosephKJordon Clearinghouse of Seminole", 
+            "state": "OK", 
+            "street": "1073 Ottis Street", 
+            "telephone": "405-382-8747", 
+            "zip": "74868"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Denver", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "YaekoRPennington@armyspy.com", 
+            "id": "dac5361c-df71-4654-a28a-2e2d3c7df5a1", 
+            "name": "YaekoRPennington Clearinghouse of Denver", 
+            "state": "CO", 
+            "street": "1604 Clay Lick Road", 
+            "telephone": "720-748-2410", 
+            "zip": "80014"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Encino", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarciJPolitte@armyspy.com", 
+            "id": "eefbd253-a80e-40a9-a242-ae9025008787", 
+            "name": "MarciJPolitte Clearinghouse of Encino", 
+            "state": "TX", 
+            "street": "2479 Glenview Drive", 
+            "telephone": "361-568-6704", 
+            "zip": "78353"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Lancaster", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JohnJSanders@rhyta.com", 
+            "id": "012c3419-1d78-4e8d-bccb-9cbc8b892868", 
+            "name": "JohnJSanders Clearinghouse of Lancaster", 
+            "state": "PA", 
+            "street": "1762 Hidden Valley Road", 
+            "telephone": "717-290-1297", 
+            "zip": "17602"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Clifton", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DonaldSPalmer@dayrep.com", 
+            "id": "cdf45ce7-a1f2-4f0a-9365-065cb4efd405", 
+            "name": "DonaldSPalmer Clearinghouse of Clifton", 
+            "state": "IL", 
+            "street": "4165 Spinnaker Lane", 
+            "telephone": "815-694-9666", 
+            "zip": "60927"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Concord", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "BeverlyJAguirre@dayrep.com", 
+            "id": "cd3480d1-d820-4efd-9f19-5d121b6b585a", 
+            "name": "BeverlyJAguirre Clearinghouse of Concord", 
+            "state": "CA", 
+            "street": "2651 Fairway Drive", 
+            "telephone": "707-486-3475", 
+            "zip": "94520"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Greensboro", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JillGSpears@jourrapide.com", 
+            "id": "3f429198-23cf-40c8-adf7-065abf8cb604", 
+            "name": "JillGSpears Clearinghouse of Greensboro", 
+            "state": "NC", 
+            "street": "1328 Havanna Street", 
+            "telephone": "336-317-5341", 
+            "zip": "27406"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Enterprise", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TommyDStewart@fleckens.hu", 
+            "id": "a8fc3e5b-257b-4e47-881e-566248b8c6bb", 
+            "name": "TommyDStewart Clearinghouse of Enterprise", 
+            "state": "KS", 
+            "street": "4258 Nicholas Street", 
+            "telephone": "785-263-1200", 
+            "zip": "67441"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "New York", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "WalterBKrebs@rhyta.com", 
+            "id": "c484b4fc-8fea-448b-8f7b-5dee7fcc9ff5", 
+            "name": "WalterBKrebs Clearinghouse of New York", 
+            "state": "NY", 
+            "street": "137 Turkey Pen Road", 
+            "telephone": "917-284-9589", 
+            "zip": "10016"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Leesburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ShaneDColon@rhyta.com", 
+            "id": "91c0875e-bc44-4856-8b72-7e8bfac7cd37", 
+            "name": "ShaneDColon Clearinghouse of Leesburg", 
+            "state": "FL", 
+            "street": "1715 Long Street", 
+            "telephone": "352-272-0191", 
+            "zip": "32749"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Fayetteville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RamonaJDowns@jourrapide.com", 
+            "id": "29d4310c-4e3b-4539-996d-b8fe8977aeb7", 
+            "name": "RamonaJDowns Clearinghouse of Fayetteville", 
+            "state": "AR", 
+            "street": "1711 Green Hill Road", 
+            "telephone": "479-387-6204", 
+            "zip": "72701"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Casper", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RichardMHicks@fleckens.hu", 
+            "id": "ce036807-2eba-41cd-b7ec-ddc2d0676609", 
+            "name": "RichardMHicks Clearinghouse of Casper", 
+            "state": "WY", 
+            "street": "4375 Arbor Court", 
+            "telephone": "307-247-4652", 
+            "zip": "82601"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Albuquerque", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CourtneyLCharles@superrito.com", 
+            "id": "a902d09c-9768-40f2-aa0e-5d9c17f23729", 
+            "name": "CourtneyLCharles Clearinghouse of Albuquerque", 
+            "state": "NM", 
+            "street": "3930 Chapmans Lane", 
+            "telephone": "505-848-5017", 
+            "zip": "87102"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Windsor", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ChristopherDCortes@fleckens.hu", 
+            "id": "0ad7f4b1-5d20-492a-934c-bedea8852b84", 
+            "name": "ChristopherDCortes Clearinghouse of Windsor", 
+            "state": "CT", 
+            "street": "2505 Airplane Avenue", 
+            "telephone": "860-930-3381", 
+            "zip": "06095"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Lenexa", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LindsayJWilkinson@superrito.com", 
+            "id": "af7adc14-f533-463d-8b15-106100f0288d", 
+            "name": "LindsayJWilkinson Clearinghouse of Lenexa", 
+            "state": "MO", 
+            "street": "4470 White Oak Drive", 
+            "telephone": "816-733-7420", 
+            "zip": "66214"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Sarasota", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DonaldAMarlatt@rhyta.com", 
+            "id": "eb3a2ca5-38c8-4222-bfc3-d2e0a0d34cf5", 
+            "name": "DonaldAMarlatt Clearinghouse of Sarasota", 
+            "state": "FL", 
+            "street": "1907 Heavens Way", 
+            "telephone": "941-929-2641", 
+            "zip": "34231"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Norfolk", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KennethRBrown@gustr.com", 
+            "id": "3d82d6d5-a252-48b9-898c-f8b52400405c", 
+            "name": "KennethRBrown Clearinghouse of Norfolk", 
+            "state": "VA", 
+            "street": "3762 Murry Street", 
+            "telephone": "757-470-7743", 
+            "zip": "23502"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Lewisville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "CharlesMLangston@cuvox.de", 
+            "id": "765e81f6-e147-459f-9f7b-d83c31c4aa6d", 
+            "name": "CharlesMLangston Clearinghouse of Lewisville", 
+            "state": "TX", 
+            "street": "4946 Poco Mas Drive", 
+            "telephone": "214-513-8663", 
+            "zip": "75067"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Schaumburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JennaJGrillo@cuvox.de", 
+            "id": "5bae8bad-ede8-4d1e-96b8-6938540250f0", 
+            "name": "JennaJGrillo Clearinghouse of Schaumburg", 
+            "state": "IL", 
+            "street": "1690 Victoria Street", 
+            "telephone": "224-698-3944", 
+            "zip": "60173"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Beaver", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarthaSSchneider@teleworm.us", 
+            "id": "527cf36f-197f-4f4d-aea5-2e06adfdc86f", 
+            "name": "MarthaSSchneider Clearinghouse of Beaver", 
+            "state": "UT", 
+            "street": "4522 Austin Secret Lane", 
+            "telephone": "435-421-1682", 
+            "zip": "84713"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Houston", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "FrancesAKnudsen@armyspy.com", 
+            "id": "e798eabb-0848-436c-ae22-5b24b49ea6dc", 
+            "name": "FrancesAKnudsen Clearinghouse of Houston", 
+            "state": "TX", 
+            "street": "914 Werninger Street", 
+            "telephone": "832-693-4606", 
+            "zip": "77027"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Longview", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NancyJAnderson@armyspy.com", 
+            "id": "9b1c552c-c82d-414c-a57c-10d44ab5adce", 
+            "name": "NancyJAnderson Clearinghouse of Longview", 
+            "state": "TX", 
+            "street": "403 Pickens Way", 
+            "telephone": "903-294-3606", 
+            "zip": "75601"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "San Bruno", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MetaMOubre@einrot.com", 
+            "id": "66c51338-dc41-427c-bd6f-2b115a06dd97", 
+            "name": "MetaMOubre Clearinghouse of San Bruno", 
+            "state": "CA", 
+            "street": "2023 Duck Creek Road", 
+            "telephone": "650-866-3504", 
+            "zip": "94066"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Torrance", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HortenseDPippen@gustr.com", 
+            "id": "c4cc0023-b420-4556-903b-16a611492c50", 
+            "name": "HortenseDPippen Clearinghouse of Torrance", 
+            "state": "CA", 
+            "street": "3244 Armbrester Drive", 
+            "telephone": "310-465-6631", 
+            "zip": "90505"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Hopkins", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JamesPWallace@gustr.com", 
+            "id": "7a68e746-b3da-4cb5-ac2e-83085da51406", 
+            "name": "JamesPWallace Clearinghouse of Hopkins", 
+            "state": "MN", 
+            "street": "2638 Sycamore Fork Road", 
+            "telephone": "952-979-1837", 
+            "zip": "55343"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Dallas", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TimothyVMartinez@einrot.com", 
+            "id": "4bfdc226-22fc-4e2e-b370-119363ef651a", 
+            "name": "TimothyVMartinez Clearinghouse of Dallas", 
+            "state": "TX", 
+            "street": "1144 Whitetail Lane", 
+            "telephone": "469-452-8012", 
+            "zip": "75207"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Austin", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JodyDBermudez@superrito.com", 
+            "id": "124bde41-c048-4194-9b49-ba097a5769e6", 
+            "name": "JodyDBermudez Clearinghouse of Austin", 
+            "state": "TX", 
+            "street": "2169 Short Street", 
+            "telephone": "512-980-5336", 
+            "zip": "78701"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Saint Louis", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "WilliamRRodriguez@einrot.com", 
+            "id": "81c3fae3-1e0d-4da8-a0ff-b7e7d17f66e6", 
+            "name": "WilliamRRodriguez Clearinghouse of Saint Louis", 
+            "state": "MO", 
+            "street": "1796 Ash Avenue", 
+            "telephone": "314-895-5384", 
+            "zip": "63108"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "San Diego", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RobertOBurrowes@einrot.com", 
+            "id": "218d9ff7-e9b3-415a-a9e2-75a068754393", 
+            "name": "RobertOBurrowes Clearinghouse of San Diego", 
+            "state": "CA", 
+            "street": "4235 Grim Avenue", 
+            "telephone": "619-819-4148", 
+            "zip": "92103"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Polk City", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ValerieKHernandez@teleworm.us", 
+            "id": "b0434ad9-2ad0-46cb-802d-dcf3796128c4", 
+            "name": "ValerieKHernandez Clearinghouse of Polk City", 
+            "state": "FL", 
+            "street": "1587 Saints Alley", 
+            "telephone": "813-760-4469", 
+            "zip": "33868"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "West Valley City", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DavidCLarson@superrito.com", 
+            "id": "6da79dba-781c-42d1-b881-e538a9b7d9d6", 
+            "name": "DavidCLarson Clearinghouse of West Valley City", 
+            "state": "UT", 
+            "street": "3894 Kemper Lane", 
+            "telephone": "801-907-7948", 
+            "zip": "84119"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Seneca", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LuisMPerez@armyspy.com", 
+            "id": "712ca46e-abd4-45dd-8695-1f9b57bc2d0c", 
+            "name": "LuisMPerez Clearinghouse of Seneca", 
+            "state": "SC", 
+            "street": "3736 Brown Avenue", 
+            "telephone": "864-886-4615", 
+            "zip": "29678"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Newark", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JanetJNapier@superrito.com", 
+            "id": "3bf0a8e3-7c4e-45ac-a33a-29357737b88f", 
+            "name": "JanetJNapier Clearinghouse of Newark", 
+            "state": "NJ", 
+            "street": "1555 Walnut Avenue", 
+            "telephone": "201-510-6761", 
+            "zip": "07102"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Prairietown", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AmyLBoone@dayrep.com", 
+            "id": "4105d450-4309-4e99-b400-851372efe24e", 
+            "name": "AmyLBoone Clearinghouse of Prairietown", 
+            "state": "IL", 
+            "street": "2736 Davis Court", 
+            "telephone": "618-888-7882", 
+            "zip": "62097"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Arlington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "WilliamOBrooks@teleworm.us", 
+            "id": "2668eeba-d118-4fd4-82cb-f3854ce7f61d", 
+            "name": "WilliamOBrooks Clearinghouse of Arlington", 
+            "state": "VA", 
+            "street": "703 Forest Drive", 
+            "telephone": "703-884-8574", 
+            "zip": "22201"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Mullins", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TheresaJBowman@cuvox.de", 
+            "id": "a570c211-66e4-4fa8-ad1c-462fc4c8112b", 
+            "name": "TheresaJBowman Clearinghouse of Mullins", 
+            "state": "SC", 
+            "street": "3533 Jerry Dove Drive", 
+            "telephone": "843-464-0139", 
+            "zip": "29574"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Wilmington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AlbertSWelch@einrot.com", 
+            "id": "d0d2fc0c-d58c-4714-8eaf-361510abb696", 
+            "name": "AlbertSWelch Clearinghouse of Wilmington", 
+            "state": "CA", 
+            "street": "3306 Armbrester Drive", 
+            "telephone": "310-549-6095", 
+            "zip": "90744"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "New Berlin", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EthelMPace@teleworm.us", 
+            "id": "4804d098-624e-4af5-b870-b90e59792fd6", 
+            "name": "EthelMPace Clearinghouse of New Berlin", 
+            "state": "WI", 
+            "street": "2956 Woodlawn Drive", 
+            "telephone": "414-698-8937", 
+            "zip": "53151"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Winchester", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JustinMStraughter@fleckens.hu", 
+            "id": "242ac223-43f8-45f6-b3c1-c65ff381dda0", 
+            "name": "JustinMStraughter Clearinghouse of Winchester", 
+            "state": "KY", 
+            "street": "4282 Mayo Street", 
+            "telephone": "859-771-0789", 
+            "zip": "40391"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Augusta", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NormanJPompa@jourrapide.com", 
+            "id": "978faeca-29e4-437e-9c80-85aa5c8d4489", 
+            "name": "NormanJPompa Clearinghouse of Augusta", 
+            "state": "GA", 
+            "street": "879 Radio Park Drive", 
+            "telephone": "706-664-1960", 
+            "zip": "30901"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Baltimore", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "PatrickLKratzer@dayrep.com", 
+            "id": "a773b8f4-f78c-4ffa-9c58-f22752be7e18", 
+            "name": "PatrickLKratzer Clearinghouse of Baltimore", 
+            "state": "MD", 
+            "street": "2902 Columbia Boulevard", 
+            "telephone": "410-464-8750", 
+            "zip": "21212"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Waukesha", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeanPBuss@jourrapide.com", 
+            "id": "9e33117e-331f-4ab7-8c96-80faafefe6be", 
+            "name": "DeanPBuss Clearinghouse of Waukesha", 
+            "state": "WI", 
+            "street": "4966 Grant View Drive", 
+            "telephone": "414-402-5260", 
+            "zip": "53186"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Portland", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JamieDCaldwell@dayrep.com", 
+            "id": "67b43125-1575-44e1-9f4e-cc37d54665d1", 
+            "name": "JamieDCaldwell Clearinghouse of Portland", 
+            "state": "OR", 
+            "street": "4933 Seneca Drive", 
+            "telephone": "503-998-8738", 
+            "zip": "97232"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Greenville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MaggieBMcDonnell@jourrapide.com", 
+            "id": "7131faf7-6727-457b-b659-f080abada9dd", 
+            "name": "MaggieBMcDonnell Clearinghouse of Greenville", 
+            "state": "SC", 
+            "street": "1007 Traction Street", 
+            "telephone": "864-569-8690", 
+            "zip": "29611"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Asheville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TommyPHartford@teleworm.us", 
+            "id": "66f49ae7-ae08-4619-9abf-5ba814ade239", 
+            "name": "TommyPHartford Clearinghouse of Asheville", 
+            "state": "NC", 
+            "street": "3245 Hannah Street", 
+            "telephone": "828-388-4957", 
+            "zip": "28803"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Washington", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "StanBReed@cuvox.de", 
+            "id": "59ee78a3-d6e0-441f-8879-482da7695580", 
+            "name": "StanBReed Clearinghouse of Washington", 
+            "state": "MD", 
+            "street": "2502 Doe Meadow Drive", 
+            "telephone": "301-556-3853", 
+            "zip": "20004"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Harrisonburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "GenevieveDSibert@superrito.com", 
+            "id": "478f0a7f-24da-44e1-81c2-268036cd21e2", 
+            "name": "GenevieveDSibert Clearinghouse of Harrisonburg", 
+            "state": "VA", 
+            "street": "1454 Hurry Street", 
+            "telephone": "540-271-2812", 
+            "zip": "22802"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Fullerton", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DorothyMHoagland@rhyta.com", 
+            "id": "8ae8667a-fe91-4950-bc67-de8a080a9588", 
+            "name": "DorothyMHoagland Clearinghouse of Fullerton", 
+            "state": "CA", 
+            "street": "237 Paradise Lane", 
+            "telephone": "909-702-0705", 
+            "zip": "93632"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Cedar Rapids", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "SherryJLippert@teleworm.us", 
+            "id": "af09b912-869e-4a0e-9176-53f729932ea1", 
+            "name": "SherryJLippert Clearinghouse of Cedar Rapids", 
+            "state": "IA", 
+            "street": "3709 Tecumsah Lane", 
+            "telephone": "319-238-4453", 
+            "zip": "52401"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Ivanhoe", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DevinMWooten@rhyta.com", 
+            "id": "02d8aa0b-a123-4202-a4aa-41f143d113a5", 
+            "name": "DevinMWooten Clearinghouse of Ivanhoe", 
+            "state": "CA", 
+            "street": "3189 Heritage Road", 
+            "telephone": "559-798-2068", 
+            "zip": "93235"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Freehold", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoyceSMoton@jourrapide.com", 
+            "id": "4b3ba1c2-f5ae-4296-8a90-4c6f1ea0559d", 
+            "name": "JoyceSMoton Clearinghouse of Freehold", 
+            "state": "NJ", 
+            "street": "4628 Pooz Street", 
+            "telephone": "732-230-3571", 
+            "zip": "07728"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Moundsville", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "FrancesDSchott@cuvox.de", 
+            "id": "6ddd5c67-d551-4a3d-b2ef-bc70d87cae9e", 
+            "name": "FrancesDSchott Clearinghouse of Moundsville", 
+            "state": "WV", 
+            "street": "4856 Kelly Drive", 
+            "telephone": "304-843-4755", 
+            "zip": "26041"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Lafayette", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "IsaacPDuncan@fleckens.hu", 
+            "id": "8062a6d1-49bf-4790-aae3-4baab8faf094", 
+            "name": "IsaacPDuncan Clearinghouse of Lafayette", 
+            "state": "LA", 
+            "street": "1876 Sherwood Circle", 
+            "telephone": "337-268-9534", 
+            "zip": "70501"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Detroit", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ClayMKoenig@gustr.com", 
+            "id": "a5c3ed72-69cd-4e63-8b0c-af35ec26f247", 
+            "name": "ClayMKoenig Clearinghouse of Detroit", 
+            "state": "MI", 
+            "street": "869 Prudence Street", 
+            "telephone": "313-368-9923", 
+            "zip": "48234"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Roswell", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DenaKEspinal@cuvox.de", 
+            "id": "97514137-60aa-465b-91e4-c2e8c89993e2", 
+            "name": "DenaKEspinal Clearinghouse of Roswell", 
+            "state": "GA", 
+            "street": "4477 Elk Creek Road", 
+            "telephone": "770-518-9458", 
+            "zip": "30075"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Hattiesburg", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AlbertAScalf@armyspy.com", 
+            "id": "b5c96977-5c44-4c34-ae4f-b2a017ead3e1", 
+            "name": "AlbertAScalf Clearinghouse of Hattiesburg", 
+            "state": "MS", 
+            "street": "791 Eastland Avenue", 
+            "telephone": "601-414-2446", 
+            "zip": "39402"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "West Nyack", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TeresaJCross@einrot.com", 
+            "id": "042cf47f-14b7-454d-82b7-64f782ca6a62", 
+            "name": "TeresaJCross Clearinghouse of West Nyack", 
+            "state": "NY", 
+            "street": "2251 Pallet Street", 
+            "telephone": "914-419-6665", 
+            "zip": "10994"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Pinehurst", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ElmerRFrechette@jourrapide.com", 
+            "id": "c709271f-7aca-4376-883d-6e04511df420", 
+            "name": "ElmerRFrechette Clearinghouse of Pinehurst", 
+            "state": "TX", 
+            "street": "1946 Richland Avenue", 
+            "telephone": "281-259-4198", 
+            "zip": "77362"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Keokuk", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DaleNBrown@armyspy.com", 
+            "id": "1246ecc9-7316-4666-a9aa-53ba1c2379e2", 
+            "name": "DaleNBrown Clearinghouse of Keokuk", 
+            "state": "IA", 
+            "street": "583 Pyramid Valley Road", 
+            "telephone": "319-526-2550", 
+            "zip": "52632"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Santa Ana", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "SuzanneJPayne@armyspy.com", 
+            "id": "09acf843-1308-43ca-8b84-8137240f627e", 
+            "name": "SuzanneJPayne Clearinghouse of Santa Ana", 
+            "state": "CA", 
+            "street": "3972 Cimmaron Road", 
+            "telephone": "714-542-5534", 
+            "zip": "92701"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Kokomo", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JohnLYu@einrot.com", 
+            "id": "8adc40f7-7479-4d2f-9d69-5433b02a3d85", 
+            "name": "JohnLYu Clearinghouse of Kokomo", 
+            "state": "IN", 
+            "street": "821 Raintree Boulevard", 
+            "telephone": "765-271-2084", 
+            "zip": "46901"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Tallahassee", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KennethKBarrientes@cuvox.de", 
+            "id": "f74a1ef7-5f83-40e1-a9c4-f5821013ed5d", 
+            "name": "KennethKBarrientes Clearinghouse of Tallahassee", 
+            "state": "FL", 
+            "street": "1438 Drainer Avenue", 
+            "telephone": "850-591-1888", 
+            "zip": "32301"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Castle Rock", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "EmilyHThompson@einrot.com", 
+            "id": "58b5402f-7ade-4593-94a6-b28006557bf4", 
+            "name": "EmilyHThompson Clearinghouse of Castle Rock", 
+            "state": "WA", 
+            "street": "3484 Chardonnay Drive", 
+            "telephone": "360-274-3851", 
+            "zip": "98611"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Irmo", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "BillACaballero@rhyta.com", 
+            "id": "b903a181-f73c-4606-abfe-1cad0c01b1aa", 
+            "name": "BillACaballero Clearinghouse of Irmo", 
+            "state": "SC", 
+            "street": "4941 Marion Street", 
+            "telephone": "803-238-8867", 
+            "zip": "29063"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Pontotoc", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MargaretJEnnis@rhyta.com", 
+            "id": "4fe0e593-949c-4514-897a-4c8657de521b", 
+            "name": "MargaretJEnnis Clearinghouse of Pontotoc", 
+            "state": "TX", 
+            "street": "1861 Felosa Drive", 
+            "telephone": "325-251-8027", 
+            "zip": "76869"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Umatilla", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LuisaJWilliams@fleckens.hu", 
+            "id": "baaa09c3-d74a-482f-8783-436ba8eb66b3", 
+            "name": "LuisaJWilliams Clearinghouse of Umatilla", 
+            "state": "FL", 
+            "street": "2595 Bagwell Avenue", 
+            "telephone": "352-669-6043", 
+            "zip": "32784"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Southfield", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ArleneRJones@einrot.com", 
+            "id": "9dadde48-fc38-4a82-bfc7-9dbeae2c8db1", 
+            "name": "ArleneRJones Clearinghouse of Southfield", 
+            "state": "MI", 
+            "street": "4848 Cunningham Court", 
+            "telephone": "248-692-5314", 
+            "zip": "48075"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Philadelphia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JenniferRDavis@fleckens.hu", 
+            "id": "c2674ec0-af06-49ef-8d24-50f697fc7482", 
+            "name": "JenniferRDavis Clearinghouse of Philadelphia", 
+            "state": "PA", 
+            "street": "1632 Lost Creek Road", 
+            "telephone": "610-986-0264", 
+            "zip": "19108"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Williston", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ThomasSPorter@einrot.com", 
+            "id": "1678f24f-d4a3-44d3-9985-f80f5efdeb63", 
+            "name": "ThomasSPorter Clearinghouse of Williston", 
+            "state": "FL", 
+            "street": "4017 George Street", 
+            "telephone": "352-528-1717", 
+            "zip": "32696"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Granby", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JenniferMWilliams@fleckens.hu", 
+            "id": "fa13acb2-58b9-4b64-a7c7-1b3f431a4a4c", 
+            "name": "JenniferMWilliams Clearinghouse of Granby", 
+            "state": "CT", 
+            "street": "1906 Copperhead Road", 
+            "telephone": "860-653-3155", 
+            "zip": "06035"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Crystal", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DorothyRCrabtree@cuvox.de", 
+            "id": "84ef8a3f-b4c8-44a5-bdad-fbe23016e002", 
+            "name": "DorothyRCrabtree Clearinghouse of Crystal", 
+            "state": "MN", 
+            "street": "2776 Hillcrest Circle", 
+            "telephone": "763-504-6644", 
+            "zip": "55429"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Memphis", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MonicaKRobinson@fleckens.hu", 
+            "id": "2f1966a6-8c05-46fc-88c3-8e928d6209d9", 
+            "name": "MonicaKRobinson Clearinghouse of Memphis", 
+            "state": "MS", 
+            "street": "1317 Oxford Court", 
+            "telephone": "662-209-5075", 
+            "zip": "38133"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Waterloo", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JanetAKillough@cuvox.de", 
+            "id": "74ce8e4a-fceb-452d-81c5-3948a9482761", 
+            "name": "JanetAKillough Clearinghouse of Waterloo", 
+            "state": "IA", 
+            "street": "4629 Tecumsah Lane", 
+            "telephone": "319-234-5769", 
+            "zip": "50703"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Indianapolis", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "LauraGGallant@cuvox.de", 
+            "id": "deca2413-f314-4783-88d2-360f64d7c2e3", 
+            "name": "LauraGGallant Clearinghouse of Indianapolis", 
+            "state": "IN", 
+            "street": "4990 Sugarfoot Lane", 
+            "telephone": "765-405-8037", 
+            "zip": "46225"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Springfield", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "GarySRyder@dayrep.com", 
+            "id": "88d87c45-1bfd-41f0-89c4-04cdeb189ed7", 
+            "name": "GarySRyder Clearinghouse of Springfield", 
+            "state": "MA", 
+            "street": "734 Trouser Leg Road", 
+            "telephone": "413-782-1954", 
+            "zip": "01109"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "El Paso", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "TiaPCoffee@gustr.com", 
+            "id": "79145275-8c1d-4474-b67a-2ce014bc9658", 
+            "name": "TiaPCoffee Clearinghouse of El Paso", 
+            "state": "TX", 
+            "street": "443 Birch  Street", 
+            "telephone": "915-581-4011", 
+            "zip": "79922"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Park Ridge", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MattieEMiller@teleworm.us", 
+            "id": "269222fc-d868-4858-8402-b7a4b96c07b9", 
+            "name": "MattieEMiller Clearinghouse of Park Ridge", 
+            "state": "IL", 
+            "street": "2199 Oakmound Drive", 
+            "telephone": "773-380-1819", 
+            "zip": "60068"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Little Rock", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NataliaJJohnson@dayrep.com", 
+            "id": "b181bc83-b9bf-4b36-91e0-faa885822ce0", 
+            "name": "NataliaJJohnson Clearinghouse of Little Rock", 
+            "state": "AR", 
+            "street": "163 Mulberry Avenue", 
+            "telephone": "501-320-0032", 
+            "zip": "72211"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Saint Louis", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeborahADeclue@fleckens.hu", 
+            "id": "c0a6e1db-8e48-46cd-9258-55df2f9cb73a", 
+            "name": "DeborahADeclue Clearinghouse of Saint Louis", 
+            "state": "MO", 
+            "street": "4338 Penn Street", 
+            "telephone": "573-306-4276", 
+            "zip": "63102"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Middletown", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "StephenCFerguson@armyspy.com", 
+            "id": "76bbec70-a70a-4256-9913-5aaa5f460e00", 
+            "name": "StephenCFerguson Clearinghouse of Middletown", 
+            "state": "OH", 
+            "street": "2762 Barnes Avenue", 
+            "telephone": "513-727-0517", 
+            "zip": "45044"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Sacramento", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DeborahWWiles@rhyta.com", 
+            "id": "59b9385f-1288-4a60-9656-356e9e6f9a46", 
+            "name": "DeborahWWiles Clearinghouse of Sacramento", 
+            "state": "CA", 
+            "street": "1517 Riverwood Drive", 
+            "telephone": "530-416-3444", 
+            "zip": "94260"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Oak Brook", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "NormaMJones@gustr.com", 
+            "id": "7d3d6aa2-4745-4a90-b0c7-2da4eef4cf24", 
+            "name": "NormaMJones Clearinghouse of Oak Brook", 
+            "state": "IL", 
+            "street": "3063 Hog Camp Road", 
+            "telephone": "708-514-6541", 
+            "zip": "60523"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Buffalo Grove", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RobertTMyles@rhyta.com", 
+            "id": "e1545921-df6b-4059-8b3d-c2dfc6e073ce", 
+            "name": "RobertTMyles Clearinghouse of Buffalo Grove", 
+            "state": "IL", 
+            "street": "35 Cecil Street", 
+            "telephone": "312-296-6872", 
+            "zip": "60089"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Newark", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MarionSFitzhugh@rhyta.com", 
+            "id": "96618147-fe61-4799-a180-4de9e9f9dbdc", 
+            "name": "MarionSFitzhugh Clearinghouse of Newark", 
+            "state": "NJ", 
+            "street": "4227 Spring Haven Trail", 
+            "telephone": "973-705-1052", 
+            "zip": "07112"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Stamford", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "JoyceJRice@rhyta.com", 
+            "id": "858b39e2-2f92-4f46-a287-4de509704a29", 
+            "name": "JoyceJRice Clearinghouse of Stamford", 
+            "state": "CT", 
+            "street": "615 Whitman Court", 
+            "telephone": "203-620-4456", 
+            "zip": "06902"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Reston", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AshleyCBooker@fleckens.hu", 
+            "id": "1878b6e9-0043-4ad3-a132-f58f950a1649", 
+            "name": "AshleyCBooker Clearinghouse of Reston", 
+            "state": "MD", 
+            "street": "1635 Village View Drive", 
+            "telephone": "240-213-1441", 
+            "zip": "20191"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Philadelphia", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "HelenMFunk@fleckens.hu", 
+            "id": "b6851eb6-11cc-4f40-97a1-418678d37399", 
+            "name": "HelenMFunk Clearinghouse of Philadelphia", 
+            "state": "PA", 
+            "street": "4582 Rocky Road", 
+            "telephone": "215-625-1981", 
+            "zip": "19107"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Millheim  l", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MargaritaJBrooks@fleckens.hu", 
+            "id": "c93e8062-3fe3-4525-9e16-934eb80b6ada", 
+            "name": "MargaritaJBrooks Clearinghouse of Millheim  l", 
+            "state": "PA", 
+            "street": "3536 Coal Street", 
+            "telephone": "814-349-1739", 
+            "zip": "16854"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Great Neck", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MichelleBCastillo@fleckens.hu", 
+            "id": "8681e993-ba8a-4a3a-b8a8-0cb3dd181e03", 
+            "name": "MichelleBCastillo Clearinghouse of Great Neck", 
+            "state": "NY", 
+            "street": "3787 Stanley Avenue", 
+            "telephone": "516-498-2993", 
+            "zip": "11021"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Lyndhurst", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ShaunaTFox@dayrep.com", 
+            "id": "8d49b02a-1514-4a81-bc65-682ddf38ebd2", 
+            "name": "ShaunaTFox Clearinghouse of Lyndhurst", 
+            "state": "NJ", 
+            "street": "1920 Duke Lane", 
+            "telephone": "732-737-8804", 
+            "zip": "07071"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "New York", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "AmandaJHuse@rhyta.com", 
+            "id": "bd8ad9c9-d123-4e1b-976c-1d26d7e478b7", 
+            "name": "AmandaJHuse Clearinghouse of New York", 
+            "state": "NY", 
+            "street": "4446 Rosewood Lane", 
+            "telephone": "212-972-0838", 
+            "zip": "10016"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Little Rock", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DaisyRLivermore@gustr.com", 
+            "id": "63f3c451-b524-4405-80d1-7e7599031855", 
+            "name": "DaisyRLivermore Clearinghouse of Little Rock", 
+            "state": "AR", 
+            "street": "4448 Fittro Street", 
+            "telephone": "870-371-6475", 
+            "zip": "72210"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Los Angeles", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ThomasLWright@armyspy.com", 
+            "id": "653c8010-4c03-4ba8-a812-d6a8a928575b", 
+            "name": "ThomasLWright Clearinghouse of Los Angeles", 
+            "state": "CA", 
+            "street": "859 Joy Lane", 
+            "telephone": "818-607-7251", 
+            "zip": "90017"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Virginia Beach", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "MatthewEDunn@fleckens.hu", 
+            "id": "7bd44365-532a-419b-9b78-9f8520058d15", 
+            "name": "MatthewEDunn Clearinghouse of Virginia Beach", 
+            "state": "VA", 
+            "street": "3281 Murry Street", 
+            "telephone": "757-499-0057", 
+            "zip": "23462"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "New Orleans", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DanielAKelly@teleworm.us", 
+            "id": "3b92e6ea-2bfb-4446-9d1a-017058c632a3", 
+            "name": "DanielAKelly Clearinghouse of New Orleans", 
+            "state": "LA", 
+            "street": "4986 Big Indian", 
+            "telephone": "504-533-4158", 
+            "zip": "70112"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Orlando", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "KarenJYoung@superrito.com", 
+            "id": "c7bfb12a-9fd9-4c22-9934-76d809f7891f", 
+            "name": "KarenJYoung Clearinghouse of Orlando", 
+            "state": "FL", 
+            "street": "3646 Linden Avenue", 
+            "telephone": "407-506-4077", 
+            "zip": "32801"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Eugene", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "RyanJRodriguez@armyspy.com", 
+            "id": "d1549696-7ca8-44b9-8004-d80197b3281b", 
+            "name": "RyanJRodriguez Clearinghouse of Eugene", 
+            "state": "OR", 
+            "street": "911 Buena Vista Avenue", 
+            "telephone": "541-653-5948", 
+            "zip": "97401"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "Maryland Heights", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "DelorisLMendez@teleworm.us", 
+            "id": "db3eeade-442c-4d85-9c6f-d195b0b7a461", 
+            "name": "DelorisLMendez Clearinghouse of Maryland Heights", 
+            "state": "MO", 
+            "street": "1478 Bruce Street", 
+            "telephone": "314-276-7208", 
+            "zip": "63043"
+        }
+    }, 
+    {
+        "commandName": "ADD", 
+        "elementType": "CLEARINGHOUSE_ORGANIZATION", 
+        "payload": {
+            "city": "New York", 
+            "country": "US", 
+            "countrycode": "1", 
+            "email": "ScottyNThompson@superrito.com", 
+            "id": "0ec5e397-c66e-44a4-8d7b-78defcc5c58b", 
+            "name": "ScottyNThompson Clearinghouse of New York", 
+            "state": "NY", 
+            "street": "4114 Geraldine Lane", 
+            "telephone": "646-272-6337", 
+            "zip": "10018"
+        }
+    }
+]
