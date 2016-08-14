@@ -58,6 +58,21 @@ The seed2json.py generates a simplified data model for testing...
   * Currently generating one random research org edge per clearing house.
   * Currently generating one random research org edge per researcher.
 
+## Neo4j setup
+
+Setup neo4j and python connectivity
+
+  * Install neo4j community edition
+  * Start server without pointing to a database
+  * Change password at http://localhost:7474/browser/
+  * Change password in testneo4j.py to new password
+  * Install python driver:  pip install neo4j-driver (https://neo4j.com/developer/python/)
+  * run testneo4j.py - should see "King Arthur" print
+
+## Seed Neo4j
+
+...
+
 ## To do
 * Add symptoms, drugs, diagnosis
 * Client for pushing files to http endpoint and graph database
