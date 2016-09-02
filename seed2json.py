@@ -123,7 +123,6 @@ print "Generating doctors..."
 attributes = ATTS.PERSONAL + ATTS.CONTACT + ATTS.SECURITY
 doctors_doc = Commandset("DOCTOR", content).gen_commandset(range(11000, 13000), attributes)
 
-
 # create facilities json file from next 1k records (leverage contact fields only)
 print "Generating facilities..."
 facility_types = ["Doctor's Office", "Diagnostic Clinic", "Home Health Visit", "Hospital", "ER"]
@@ -232,15 +231,15 @@ for index, entity in enumerate(content["results"]):
 #
 
 # create encounters json file
-print "Generating 15k encounters..."
-for index in range(0, 15000): 
+print "Generating 10k encounters..."
+for index in range(0, 10000): 
   element = {}
   element["element_type"] = "ENCOUNTER"
   payload = {}
   # unique id for new record
   payload["id"] = str(uuid.uuid4()) 
   payload["timestamp"] = gen_random_date(2).isoformat()
-  element["entity"] = payload
+  element["payload"] = payload
   encounters_doc.append(element)
 
 
@@ -249,55 +248,71 @@ for index in range(0, 15000):
 #
 
 # build index on a list based on keyType, return map
+# lower and trims key for loose match
 def map(list, keyType):
   m = {}
   for entry in list:
 
     key = entry["payload"][keyType]
-  
+    key = key.strip().lower()
+    
     if not key in m:
       m[key] = []
+
     m[key].append(entry)  
   return m
 
-# Creates left-outer join from leftDoc to rightDoc, randomizing right doc connections.
-# Joins on "join" criteria, a dict, by taking key for leftDoc and matching on value for right doc.
-# direction:  regardless of left outer join, which way to connect the graph?
-#             left_to_right, right_to_left, or bi_directional?
-def genDirectedEdge(leftDoc, rightDoc, leftDocKey, rightDocKey, direction="left_to_right"):
+
+def genDirectedEdge(leftDoc, rightDoc, leftDocKey=None, rightDocKey=None, direction="left_to_right"):
   
-  # get an index based on match criteria
-  rightDocIndex = map(rightDoc, rightDocKey)
+  # index the right doc for inner join if applicable
+  if leftDocKey is not None and rightDocKey is not None:
+    # get an index based on match criteria
+    rightDocIndex = map(rightDoc, rightDocKey)
 
   edges = []
 
   for leftEntry in leftDoc:
+    
+    if leftDocKey is not None and rightDocKey is not None:
 
-    # perform join
+      # perform join (strip/lower for loose matching)
+      joinCriteria = leftEntry["payload"][leftDocKey].strip().lower()
 
-    joinCriteria = leftEntry["payload"][leftDocKey]
- 
-    if not joinCriteria in rightDocIndex:
-      # print "No match on " + joinCriteria
-      break
+      if not joinCriteria in rightDocIndex:
+        # print "No match on " + joinCriteria
+        break
 
-    # find possible right entries for each left entry based on 
-    # match criteria... 
-    rightEntryPossibilities = rightDocIndex[joinCriteria]
-
+      # find possible right entries for each left entry based on 
+      # match criteria... 
+      rightEntryPossibilities = rightDocIndex[joinCriteria]
+    
+    else:
+      rightEntryPossibilities = rightDoc
+    
     rightEntry = rightEntryPossibilities[random.randint(0, len(rightEntryPossibilities)-1)]
 
     element = {}
     element["element_type"] = "EDGE" 
     payload = {}
-  
-    payload["left_element_type"] = leftEntry["element_type"]
-    payload["left_element_id"] = str(uuid.uuid4()) 
+
     
-    print rightEntry
-    payload["right_element_type"] = rightEntry["element_type"] 
-    payload["right_element_id"] = str(uuid.uuid4()) 
+    if direction == "left_to_right":
+
+      payload["left_element_type"] = leftEntry["element_type"]
+      payload["left_element_id"] = leftEntry["payload"]["id"]
+ 
+      payload["right_element_type"] = rightEntry["element_type"] 
+      payload["right_element_id"] = rightEntry["payload"]["id"]
     
+    else:
+
+      payload["right_element_type"] = leftEntry["element_type"]
+      payload["right_element_id"] = leftEntry["payload"]["id"]
+ 
+      payload["left_element_type"] = rightEntry["element_type"] 
+      payload["left_element_id"] = rightEntry["payload"]["id"]
+
     element["payload"] = payload
 
     edges.append(element)
@@ -310,27 +325,38 @@ edges = []
 #   lab results -> doctor, insurance, and lab ( and randomly assign to a patient?  mrns don't match so would have to be random...)
 #   patient -> insurance carrier
 #   doctor -> insurance accepted
-edges.append(genDirectedEdge(lab_output_doc, doctors_doc, "ordering_provider", "provider_name" )) # result -> doctor
-edges.append(genDirectedEdge(lab_output_doc, insurance_doc, "primary_insurance", "name" )) # result -> insurance
-edges.append(genDirectedEdge(lab_output_doc, labs_doc, "performing_lab", "name" )) # result -> lab
-edges.append(genDirectedEdge(patients_doc, insurance_doc, "primary_insurance_carrier", "name" )) # patient -> insurance carrier
-edges.append(genDirectedEdge(doctors_doc, insurance_doc, "insurance_accepted", "name" )) # doctor -> insurance accepted
+edges = edges + genDirectedEdge(lab_output_doc, doctors_doc, "ordering_provider", "provider_name" ) # result -> doctor
+edges = edges + genDirectedEdge(lab_output_doc, insurance_doc, "primary_insurance", "name" ) # result -> insurance
+edges = edges + genDirectedEdge(lab_output_doc, labs_doc, "performing_lab", "name" ) # result -> lab
+edges = edges + genDirectedEdge(patients_doc, insurance_doc, "primary_insurance_carrier", "name" ) # patient -> insurance carrier
+edges = edges + genDirectedEdge(doctors_doc, insurance_doc, "insurance_accepted", "name" ) # doctor -> insurance accepted
 
 # then connect each lab result to a unique encounter (but save edge as encounter->lab result)
+edges = edges + genDirectedEdge(lab_output_doc, encounters_doc, None, None, "right_to_left" )
 
 # now some encounters have a lab result
-
-# connect patients to encounters...
+# connect a patient to each encounter... encounter->patient
+edges = edges + genDirectedEdge(encounters_doc, patients_doc, None, None)
 
 # connect each encounter to 1..n clearing houses
+edges = edges + genDirectedEdge(encounters_doc, clearing_houses_doc, None, None)
 
 # connect each clearing house to 1..n research orgs
+edges = edges + genDirectedEdge(clearing_houses_doc, research_orgs_doc, None, None)
 
 # connect each researcher to one research org (research org -> researcher)
+edges = edges + genDirectedEdge(researchers_doc, research_orgs_doc, None, None, "right_to_left")
 
-# write to doc
+# aggregate elements
 elements = encounters_doc + patients_doc + doctors_doc + researchers_doc + insurance_doc + lab_output_doc
 elements += clearing_houses_doc + facilities_doc + research_orgs_doc + researchers_doc + labs_doc
+
+# create list of connected elements
+#elements_in_play = []
+#for edge in edges:
+#  elements_in_play.append(edge["payload"]["left_element_id"])
+#  elements_in_play.append(edge["payload"]["right_element_id"])
+# todo remove non connected elements??
 
 meta = {}
 meta["num_entities"] = len(elements)
@@ -344,8 +370,7 @@ meta["num_research_orgs"] = len(research_orgs_doc)
 meta["num_labs"] = len(labs_doc)
 meta["num_insurance_providers"] = len(insurance_doc)
 meta["num_lab_results"] = len(lab_output_doc)
-
-edges = []
+meta["num_edges"] = len(edges)
 
 doc = {}
 doc["meta"] = meta
@@ -353,11 +378,6 @@ doc["entities"] = elements
 doc["edges"] = edges
 
 write_json("output/entity_data.json", doc)
-print "\nPrinted entities and edges to output/graph_data.json."
+print "\nPrinted entities and edges to output/entity_data.json."
+
 print json.dumps(meta, indent=4, sort_keys=True)
-
-
-
-
-
- 
