@@ -1,17 +1,21 @@
 # reads pipe delimited data from names.txt and generates
-# test healthcare data ready for a graph database
+# test healthcare entities, augments with alt set,
+# and creates edges
 
 import json, datetime, csv, random, uuid, os, shutil
 
-shutil.rmtree("output", ignore_errors=True, onerror=None) 
-os.mkdir("output")
-os.mkdir("output/edges") 
+shutil.rmtree("./output", ignore_errors=True, onerror=None) 
+os.mkdir("./output")
 
 # write formatted JSON to file
 def write_json(path, doc):
   f = open(path, "w")
   f.write(json.dumps(doc, indent=4, sort_keys=True))
   f.close()
+
+#
+# BUILD ENTITIES from names.txt
+#
 
 # parse pipe-delimited record
 def parse_fields(record):
@@ -48,7 +52,7 @@ def gen_random_date(years):
   return random_day
 
 # read pipe-delimited seed file into list
-with open("seed/names.txt") as f:
+with open("./seed_files/names.txt") as f:
     content = f.readlines()
     content.remove(content[0]) # remove header from data set 
 
@@ -62,18 +66,18 @@ class ATTS(object):
 class Commandset(object):
   
     # constructor
-    def __init__(self, commandName, elementType, content):
-        self.commandName = commandName
+    def __init__(self, elementType, content):
+       
         self.elementType = elementType
         self.content = content
         
-    # builds an add command
-    def buildCommand(self, commandName, elementType, id, record, attributes):
+    # builds and
+    def buildEntity(self, id, record, attributes):
       
       # construct command element of type elementType
-      command = {}
-      command["commandName"] = commandName
-      command["elementType"] = elementType
+      entity = {}
+  
+      entity["element_type"] = self.elementType
 
       # parse the raw pipe-delimited record into a dict
       lookup = parse_fields(record)
@@ -87,15 +91,15 @@ class Commandset(object):
       for attribute in attributes:
         payload[attribute] = lookup[attribute]
 
-      command["payload"] = payload
-      return command
+      entity["payload"] = payload
+      return entity
 
     # create command set from seed data
-    def gen_add_commandset(self, range, attributes):
+    def gen_commandset(self, range, attributes):
       Commandset = []
       for index in range:   
         id = str(uuid.uuid4()) # unique id for new record
-        Commandset.append(self.buildCommand(self.commandName, self.elementType, id, self.content[index], attributes))
+        Commandset.append(self.buildEntity(id, self.content[index], attributes))
       return Commandset
 
 # define docs
@@ -105,117 +109,254 @@ doctors_doc = []
 researchers_doc = []
 encounters_doc = []
 clearing_houses_doc = []
-hospitals_doc = []
+facilities_doc = []
 research_orgs_doc = []
 researchers_doc = []
 
-# create patients json file from first 25k records
+# create patients json file from first ~11k records
 print "Generating patients..." 
 attributes = ATTS.PERSONAL + ATTS.PHYSICAL + ATTS.CONTACT + ATTS.SECURITY
-patients_doc = Commandset("ADD", "PATIENT", content).gen_add_commandset(range(0, 24999), attributes)
-write_json("output/patients.json", patients_doc)
+patients_doc = Commandset("PATIENT", content).gen_commandset(range(0, 11000), attributes)
 
 # create doctors json file from next 2k records
 print "Generating doctors..."
 attributes = ATTS.PERSONAL + ATTS.CONTACT + ATTS.SECURITY
-doctors_doc = Commandset("ADD", "DOCTOR", content).gen_add_commandset(range(25000, 26999), attributes)
-write_json("output/doctors.json", doctors_doc)
+doctors_doc = Commandset("DOCTOR", content).gen_commandset(range(11000, 13000), attributes)
 
-# create hospitals json file from next 500 records (leverage contact fields only)
-print "Generating  hospitals..."
+
+# create facilities json file from next 1k records (leverage contact fields only)
+print "Generating facilities..."
+facility_types = ["Doctor's Office", "Diagnostic Clinic", "Home Health Visit", "Hospital", "ER"]
 attributes = ATTS.CONTACT
-hospitals_doc = Commandset("ADD", "HOSPITAL", content).gen_add_commandset(range(27000, 27499), attributes)
-for index, elements in enumerate(hospitals_doc): # add a unique hospital name
-  elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Hospital of " + elements["payload"]["city"]
-write_json("output/hospitals.json", hospitals_doc)
+facilities_doc = Commandset("FACILITY", content).gen_commandset(range(13000, 14000), attributes)
+for index, elements in enumerate(facilities_doc): # add a unique facility name
+  facility_type = facility_types[random.randint(0, len(facility_types)-1)] # random type
+  elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + facility_type + " of " + elements["payload"]["city"]
 
-# create clearing house orgs json file from next 100 records (leverage contact fields only)
+# create clearing house orgs json file from next 1k records (leverage contact fields only)
 print "Generating clearing house organizations..."
 attributes = ATTS.CONTACT
-clearing_houses_doc = Commandset("ADD", "CLEARINGHOUSE_ORGANIZATION", content).gen_add_commandset(range(28600, 28699), attributes)
+clearing_houses_doc = Commandset("CLEARINGHOUSE_ORGANIZATION", content).gen_commandset(range(14000, 15000), attributes)
 for elements in clearing_houses_doc: # add a unique resarch org name
   elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Clearinghouse of " + elements["payload"]["city"]
-write_json("output/clearinghouse_orgs.json", clearing_houses_doc)
 
-# create research orgs json file from next 100 records (leverage contact fields only)
+# create research orgs json file from next 1k records (leverage contact fields only)
 print "Generating research organizations..."
 attributes = ATTS.CONTACT
-research_orgs_doc = Commandset("ADD", "RESEARCH_ORGANIZATION", content).gen_add_commandset(range(27500, 27599), attributes)
+research_orgs_doc = Commandset("RESEARCH_ORGANIZATION", content).gen_commandset(range(15000, 16000), attributes)
 for elements in researchers_doc: # add a unique resarch org name
-  elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Research Lab of " + elements["payload"]["city"]
-write_json("output/research_orgs.json", research_orgs_doc)
+  elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Research Organization of " + elements["payload"]["city"]
 
-# create researchers json file from next 1k records
+# create researchers json file from next 2k records
 print "Generating researchers..."
 attributes = ATTS.PERSONAL + ATTS.CONTACT + ATTS.SECURITY
-researchers_doc = Commandset("ADD", "RESEARCHER", content).gen_add_commandset(range(27600, 28599), attributes)
-write_json("output/researchers.json", researchers_doc)
+researchers_doc = Commandset("RESEARCHER", content).gen_commandset(range(16000, 18000), attributes)
+
+# create researchers json file from next 1k records
+print "Generating labs..."
+attributes = ATTS.PERSONAL + ATTS.CONTACT + ATTS.SECURITY
+labs_doc = Commandset("LAB", content).gen_commandset(range(18000, 19000), attributes)
+
+# create insurance providers
+# read pipe-delimited seed file into list
+insurance_doc = []
+print "Generating insurance entities..." 
+with open("./seed_files/set_from_andy/insurance.txt") as f:
+    content = f.readlines()
+for name in content:
+  entity = {}
+  entity["element_type"] = "INSURANCE_PROVIDER"
+  payload = {}
+  payload["id"] = str(uuid.uuid4()) 
+  payload["name"] = name.strip()
+  entity["payload"] = payload
+  insurance_doc.append(entity)
+
+#
+#  AUGMENT ABOVE CREATED DATA WITH SET FROM ANDY
+#
+
+# FIRST PATIENTS DATA
+
+# augment patient data with insurer info from Andy's set
+with open('./seed_files/set_from_andy/patients.json') as data_file:    
+    content = json.load(data_file)
+
+# copy over a few fields
+for index, entity in enumerate(content):
+  patients_doc[index]["payload"]["primary_insurance_carrier"] = entity["PrimaryInsuranceCarrier"] 
+  patients_doc[index]["payload"]["primary_insurance_carrier_id"] = entity["PrimaryInsuranceCarrierId"] 
+  patients_doc[index]["payload"]["mrn"] = entity["MRN"]
+patients_doc = patients_doc[:(len(content))] # reduce larger set to set count from andy's set
+
+# THEN LABS
+with open("./seed_files/set_from_andy/labs.txt") as f:
+    content = f.readlines()
+
+# copy over lab name
+for index, name in enumerate(content):
+  labs_doc[index]["payload"]["name"] = name.strip()
+labs_doc = labs_doc[:(len(content))] # reduce larger set to set count from andy's set
+
+# THEN DOCTORS
+
+# augment doctor data with info from Andy's set
+with open('./seed_files/set_from_andy/providers.json') as data_file:    
+    content = json.load(data_file)
+
+# copy over a few fields
+for index, entity in enumerate(content):
+  doctors_doc[index]["payload"]["insurance_accepted"] = entity["InsuranceAccepted"] 
+  doctors_doc[index]["payload"]["specialty"] = entity["Specialty"] 
+  doctors_doc[index]["payload"]["npi"] = entity["NPI"]
+  doctors_doc[index]["payload"]["provider_name"] = entity["ProviderName"]
+doctors_doc = doctors_doc[:len(content)] # reduce larger set to set count from andy's set
+
+# INCLUDE LAB OUTPUT
+# augment doctor data with info from Andy's set
+with open('./seed_files/set_from_andy/lab_output.json') as data_file:    
+    content = json.load(data_file)
+
+# make doc
+lab_output_doc = []
+print "Generating lab results..." 
+for index, entity in enumerate(content["results"]):
+  element = {}
+  element["element_type"] = "LAB_RESULTS"
+  element["payload"] = entity
+  element["payload"]["id"] = str(uuid.uuid4()) 
+  lab_output_doc.append(element)
+
+#
+# CREATE ENCOUNTERS WHICH WILL ANCHOR DOCTORS, PATIENTS, FACILITIES, AND CLEARING_HOUSES TO AN ENCOUNTER
+#
 
 # create encounters json file
-print "Generating 50k encounters..."
-for index in range(0, 49999): 
+print "Generating 15k encounters..."
+for index in range(0, 15000): 
   element = {}
-  element["commandName"] = "ADD"
-  element["elementType"] = "ENCOUNTER"
+  element["element_type"] = "ENCOUNTER"
   payload = {}
   # unique id for new record
   payload["id"] = str(uuid.uuid4()) 
   payload["timestamp"] = gen_random_date(2).isoformat()
-  element["payload"] = payload
+  element["entity"] = payload
   encounters_doc.append(element)
 
-# write to 
-write_json("output/encounters.json", encounters_doc)
 
+#
+# CREATE EDGES AND TRIM ENTITY SETS
+#
 
-print "Generating edges..."
+# build index on a list based on keyType, return map
+def map(list, keyType):
+  m = {}
+  for entry in list:
 
-# create leftdoc outter-join right docs with shared timestamp
-def make_add_edge_left_outter(leftDoc, right_docs):
-  edge_doc = []
-  for index in range(0, len(leftDoc)):
+    key = entry["payload"][keyType]
+  
+    if not key in m:
+      m[key] = []
+    m[key].append(entry)  
+  return m
 
-    timestamp = gen_random_date(2).isoformat()
-    left_edge = leftDoc[index]
+# Creates left-outer join from leftDoc to rightDoc, randomizing right doc connections.
+# Joins on "join" criteria, a dict, by taking key for leftDoc and matching on value for right doc.
+# direction:  regardless of left outer join, which way to connect the graph?
+#             left_to_right, right_to_left, or bi_directional?
+def genDirectedEdge(leftDoc, rightDoc, leftDocKey, rightDocKey, direction="left_to_right"):
+  
+  # get an index based on match criteria
+  rightDocIndex = map(rightDoc, rightDocKey)
 
-    # iterate over outter nodes
-    for right_doc in right_docs: 
+  edges = []
 
-      # setup left edge
-      element = {}
-      element["commandName"] = "ADD"
-      payload = {}
-      payload["id"] = str(uuid.uuid4()) 
-      payload["timestamp"] = timestamp
-      payload[left_edge["elementType"] + "_ID"] = left_edge["payload"]["id"]
+  for leftEntry in leftDoc:
 
-      # setup right edge
-      random_right_doc_index = random.randint(0, len(right_doc)-1)
-      right_edge = right_doc[random_right_doc_index]
-      payload[right_edge["elementType"] + "_ID"] = right_edge["payload"]["id"]
-      
-      # add payload
-      element["payload"] = payload
+    # perform join
 
-      # set type
-      element["elementType"] = left_edge["elementType"] + "_" + right_edge["elementType"] + "_EDGE"
-      
-      # add to doc
-      edge_doc.append(element)
+    joinCriteria = leftEntry["payload"][leftDocKey]
+ 
+    if not joinCriteria in rightDocIndex:
+      # print "No match on " + joinCriteria
+      break
 
-  return edge_doc
+    # find possible right entries for each left entry based on 
+    # match criteria... 
+    rightEntryPossibilities = rightDocIndex[joinCriteria]
+
+    rightEntry = rightEntryPossibilities[random.randint(0, len(rightEntryPossibilities)-1)]
+
+    element = {}
+    element["element_type"] = "EDGE" 
+    payload = {}
+  
+    payload["left_element_type"] = leftEntry["element_type"]
+    payload["left_element_id"] = str(uuid.uuid4()) 
     
-# create encounter edges
-encounters_edges_doc = make_add_edge_left_outter(encounters_doc, [patients_doc, hospitals_doc, clearing_houses_doc, doctors_doc])
-write_json("output/edges/encounter_edges.json", encounters_edges_doc)
+    print rightEntry
+    payload["right_element_type"] = rightEntry["element_type"] 
+    payload["right_element_id"] = str(uuid.uuid4()) 
+    
+    element["payload"] = payload
 
-# create clearing house research org nodes
-clearinghouse_edges_doc = make_add_edge_left_outter(clearing_houses_doc, [research_orgs_doc])
-write_json("output/edges/clearinghouse_edges.json", clearinghouse_edges_doc)
+    edges.append(element)
 
-# create research org nodes
-research_org_edges_doc = make_add_edge_left_outter(researchers_doc, [research_orgs_doc])
-write_json("output/edges/resource_org_edges.json", research_org_edges_doc)
+  return edges
+
+edges = []
+
+# first connect Andy's set into the following sub graphs:
+#   lab results -> doctor, insurance, and lab ( and randomly assign to a patient?  mrns don't match so would have to be random...)
+#   patient -> insurance carrier
+#   doctor -> insurance accepted
+edges.append(genDirectedEdge(lab_output_doc, doctors_doc, "ordering_provider", "provider_name" )) # result -> doctor
+edges.append(genDirectedEdge(lab_output_doc, insurance_doc, "primary_insurance", "name" )) # result -> insurance
+edges.append(genDirectedEdge(lab_output_doc, labs_doc, "performing_lab", "name" )) # result -> lab
+edges.append(genDirectedEdge(patients_doc, insurance_doc, "primary_insurance_carrier", "name" )) # patient -> insurance carrier
+edges.append(genDirectedEdge(doctors_doc, insurance_doc, "insurance_accepted", "name" )) # doctor -> insurance accepted
+
+# then connect each lab result to a unique encounter (but save edge as encounter->lab result)
+
+# now some encounters have a lab result
+
+# connect patients to encounters...
+
+# connect each encounter to 1..n clearing houses
+
+# connect each clearing house to 1..n research orgs
+
+# connect each researcher to one research org (research org -> researcher)
+
+# write to doc
+elements = encounters_doc + patients_doc + doctors_doc + researchers_doc + insurance_doc + lab_output_doc
+elements += clearing_houses_doc + facilities_doc + research_orgs_doc + researchers_doc + labs_doc
+
+meta = {}
+meta["num_entities"] = len(elements)
+meta["num_encounters"] = len(encounters_doc)
+meta["num_patients"] = len(patients_doc)
+meta["num_doctors"] = len(doctors_doc)
+meta["num_researchers"] = len(researchers_doc)
+meta["num_clearing_houses"] = len(clearing_houses_doc)
+meta["num_facilities"] = len(facilities_doc)
+meta["num_research_orgs"] = len(research_orgs_doc)
+meta["num_labs"] = len(labs_doc)
+meta["num_insurance_providers"] = len(insurance_doc)
+meta["num_lab_results"] = len(lab_output_doc)
+
+edges = []
+
+doc = {}
+doc["meta"] = meta
+doc["entities"] = elements
+doc["edges"] = edges
+
+write_json("output/entity_data.json", doc)
+print "\nPrinted entities and edges to output/graph_data.json."
+print json.dumps(meta, indent=4, sort_keys=True)
+
+
 
 
 

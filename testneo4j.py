@@ -1,6 +1,6 @@
 from neo4j.v1 import GraphDatabase, basic_auth
 
-driver = GraphDatabase.driver("bolt://localhost", auth=basic_auth("neo4j", "zIn9MTeNVi9l"))
+driver = GraphDatabase.driver("bolt://localhost", auth=basic_auth("neo4j", "healthcare123"))
 session = driver.session()
 
 session.run("CREATE (a:Person {name:'Arthur', title:'King'})")

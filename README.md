@@ -1,3 +1,8 @@
+Dev summit
+Keep hack session alive
+Active Active
+
+
 # patient-seed-generator
 Generates fake patient and health data into a graph model for testing big data pipelines and analytics functionality
 
@@ -62,12 +67,14 @@ The seed2json.py generates a simplified data model for testing...
 
 Setup neo4j and python connectivity
 
-  * Install neo4j community edition
-  * Start server without pointing to a database
-  * Change password at http://localhost:7474/browser/
-  * Change password in testneo4j.py to new password
+  * Install neo4j community edition.  Download and extract tar: https://neo4j.com/download/other-releases/
+  * Start server: bin/neo4j start
+  * Change password at http://localhost:7474/browser/ to healthcare123 (to match scripts)
   * Install python driver:  pip install neo4j-driver (https://neo4j.com/developer/python/)
   * run testneo4j.py - should see "King Arthur" print
+  * Install rest client: pip install neo4jrestclient
+  * pip install dicttoxml for datums
+
 
 ## Seed Neo4j
 
