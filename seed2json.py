@@ -280,8 +280,8 @@ def genDirectedEdge(leftDoc, rightDoc, leftDocKey=None, rightDocKey=None, direct
       joinCriteria = leftEntry["payload"][leftDocKey].strip().lower()
 
       if not joinCriteria in rightDocIndex:
-        # print "No match on " + joinCriteria
-        break
+        print "No match on " + joinCriteria
+        continue
 
       # find possible right entries for each left entry based on 
       # match criteria... 
