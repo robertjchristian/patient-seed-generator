@@ -37,12 +37,19 @@ def parse_fields(record):
   lookup["mothersmaidenname"] = fields[19]
   lookup["birthday"] = fields[20]
   lookup["nationalid"] = fields[21];
-  lookup["ocupation"] = fields[22]
+  lookup["occupation"] = fields[22]
   lookup["company"] = fields[23]
   lookup["bloodtype"] = fields[24]
   lookup["weightkilograms"] = fields[25]
   lookup["heightcentimeters"] = fields[26]
-  lookup["age"] = fields[27].strip()
+
+  # data cleanup
+
+  # we don't like newborns as doctors, etc... let's just have everyone 18+
+  birthYear = int(lookup["birthday"][-4:]);
+  if birthYear >= 1998:
+    lookup["birthday"] = lookup["birthday"][:-4] + str(birthYear - 18)
+
   return lookup
 
 # generate random day in last x years
@@ -58,8 +65,8 @@ with open("./seed_files/names.txt") as f:
 
 # Attribute groupings
 class ATTS(object):
-    PERSONAL = ["firstname", "lastname", "gender", "birthday", "nationalid", "ocupation"]
-    PHYSICAL = ["bloodtype", "weightkilograms", "heightcentimeters", "age"]
+    PERSONAL = ["firstname", "lastname", "gender", "birthday", "nationalid", "occupation"]
+    PHYSICAL = ["bloodtype", "weightkilograms", "heightcentimeters"]
     CONTACT = ["street", "city", "state", "zip", "country", "telephone", "countrycode", "email"]
     SECURITY = ["username", "password", "mothersmaidenname"]
 
@@ -280,7 +287,7 @@ def genDirectedEdge(leftDoc, rightDoc, leftDocKey=None, rightDocKey=None, direct
       joinCriteria = leftEntry["payload"][leftDocKey].strip().lower()
 
       if not joinCriteria in rightDocIndex:
-        print "No match on " + joinCriteria
+        #print "No match on " + joinCriteria
         continue
 
       # find possible right entries for each left entry based on 
