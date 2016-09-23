@@ -150,7 +150,7 @@ for elements in clearing_houses_doc: # add a unique resarch org name
 print "Generating research organizations..."
 attributes = ATTS.CONTACT
 research_orgs_doc = Commandset("RESEARCH_ORGANIZATION", content).gen_commandset(range(15000, 16000), attributes)
-for elements in researchers_doc: # add a unique resarch org name
+for elements in research_orgs_doc: # add a unique resarch org name
   elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Research Organization of " + elements["payload"]["city"]
 
 # create researchers json file from next 2k records
