@@ -2,7 +2,7 @@
 # test healthcare entities, augments with alt set,
 # and creates edges
 
-import json, datetime, csv, random, uuid, os, shutil
+import json, datetime, csv, random, uuid, os, shutil, copy
 
 shutil.rmtree("./output", ignore_errors=True, onerror=None) 
 os.mkdir("./output")
@@ -37,12 +37,19 @@ def parse_fields(record):
   lookup["mothersmaidenname"] = fields[19]
   lookup["birthday"] = fields[20]
   lookup["nationalid"] = fields[21];
-  lookup["ocupation"] = fields[22]
+  lookup["occupation"] = fields[22]
   lookup["company"] = fields[23]
   lookup["bloodtype"] = fields[24]
   lookup["weightkilograms"] = fields[25]
   lookup["heightcentimeters"] = fields[26]
-  lookup["age"] = fields[27].strip()
+
+  # data cleanup
+
+  # we don't like newborns as doctors, etc... let's just have everyone 18+
+  birthYear = int(lookup["birthday"][-4:]);
+  if birthYear >= 1998:
+    lookup["birthday"] = lookup["birthday"][:-4] + str(birthYear - 18)
+
   return lookup
 
 # generate random day in last x years
@@ -58,8 +65,8 @@ with open("./seed_files/names.txt") as f:
 
 # Attribute groupings
 class ATTS(object):
-    PERSONAL = ["firstname", "lastname", "gender", "birthday", "nationalid", "ocupation"]
-    PHYSICAL = ["bloodtype", "weightkilograms", "heightcentimeters", "age"]
+    PERSONAL = ["firstname", "lastname", "gender", "birthday", "nationalid", "occupation"]
+    PHYSICAL = ["bloodtype", "weightkilograms", "heightcentimeters"]
     CONTACT = ["street", "city", "state", "zip", "country", "telephone", "countrycode", "email"]
     SECURITY = ["username", "password", "mothersmaidenname"]
 
@@ -143,7 +150,7 @@ for elements in clearing_houses_doc: # add a unique resarch org name
 print "Generating research organizations..."
 attributes = ATTS.CONTACT
 research_orgs_doc = Commandset("RESEARCH_ORGANIZATION", content).gen_commandset(range(15000, 16000), attributes)
-for elements in researchers_doc: # add a unique resarch org name
+for elements in research_orgs_doc: # add a unique resarch org name
   elements["payload"]["name"] = elements["payload"]["email"].split("@")[0] + " Research Organization of " + elements["payload"]["city"]
 
 # create researchers json file from next 2k records
@@ -280,8 +287,8 @@ def genDirectedEdge(leftDoc, rightDoc, leftDocKey=None, rightDocKey=None, direct
       joinCriteria = leftEntry["payload"][leftDocKey].strip().lower()
 
       if not joinCriteria in rightDocIndex:
-        # print "No match on " + joinCriteria
-        break
+        print "No match on " + joinCriteria + " for key: " + leftDocKey
+        continue
 
       # find possible right entries for each left entry based on 
       # match criteria... 
@@ -328,8 +335,27 @@ edges = []
 edges = edges + genDirectedEdge(lab_output_doc, doctors_doc, "ordering_provider", "provider_name" ) # result -> doctor
 edges = edges + genDirectedEdge(lab_output_doc, insurance_doc, "primary_insurance", "name" ) # result -> insurance
 edges = edges + genDirectedEdge(lab_output_doc, labs_doc, "performing_lab", "name" ) # result -> lab
-edges = edges + genDirectedEdge(patients_doc, insurance_doc, "primary_insurance_carrier", "name" ) # patient -> insurance carrier
-edges = edges + genDirectedEdge(doctors_doc, insurance_doc, "insurance_accepted", "name" ) # doctor -> insurance accepted
+
+# creating a stripped version of the patients, only containing the ones which have an insurance
+patients_insurance_mod = []
+for pat in patients_doc:
+  if pat["payload"]["primary_insurance_carrier"]:
+    patients_insurance_mod.append(pat)
+print "Stripped patient array length, all having a single insurance: "+str(len(patients_insurance_mod))
+edges = edges + genDirectedEdge(patients_insurance_mod, insurance_doc, "primary_insurance_carrier", "name" ) # patient -> insurance carrier
+
+# creating duplicated of doctor entities where they support multiple insurances; remove the entities where they don't support any
+doctors_insurance_mod = []
+for doc in doctors_doc:
+  if doc["payload"]["insurance_accepted"]:
+    providers = doc["payload"]["insurance_accepted"].split(",")
+    for provider in providers:
+      provider = provider.strip()
+      doc_clone = copy.deepcopy(doc)
+      doc_clone["payload"]["insurance_accepted"] = provider
+      doctors_insurance_mod.append(doc_clone)
+print "Extended doctors array length, all having a single insurance: "+str(len(doctors_insurance_mod))
+edges = edges + genDirectedEdge(doctors_insurance_mod, insurance_doc, "insurance_accepted", "name" ) # doctor -> insurance accepted
 
 # then connect each lab result to a unique encounter (but save edge as encounter->lab result)
 edges = edges + genDirectedEdge(lab_output_doc, encounters_doc, None, None, "right_to_left" )
@@ -338,14 +364,41 @@ edges = edges + genDirectedEdge(lab_output_doc, encounters_doc, None, None, "rig
 # connect a patient to each encounter... encounter->patient
 edges = edges + genDirectedEdge(encounters_doc, patients_doc, None, None)
 
-# connect each encounter to 1..n clearing houses
-edges = edges + genDirectedEdge(encounters_doc, clearing_houses_doc, None, None)
+# connect a doctor to each encounter... encounter->doctor
+edges = edges + genDirectedEdge(encounters_doc, doctors_doc, None, None)
+
+# connect each clearing house to 1..n encounters, add ~5 encounters to each
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
 
 # connect each clearing house to 1..n research orgs
 edges = edges + genDirectedEdge(clearing_houses_doc, research_orgs_doc, None, None)
 
+# make sure also every research organization has a clearing house attached
+edges = edges + genDirectedEdge(research_orgs_doc, clearing_houses_doc, None, None, "right_to_left")
+
 # connect each researcher to one research org (research org -> researcher)
 edges = edges + genDirectedEdge(researchers_doc, research_orgs_doc, None, None, "right_to_left")
+
+# filter duplicate edges
+# a set is a practical data structure to check the existance of an object in a set of objects
+existing_edges = set();
+filtered_edges = [];
+for edge in edges:
+  leftId = edge["payload"]["left_element_id"]
+  leftType = edge["payload"]["left_element_type"]
+  rightId = edge["payload"]["right_element_id"]
+  rightType = edge["payload"]["right_element_type"]
+  edgeDesc = "_".join(sorted([leftId, rightId]))
+  if edgeDesc in existing_edges:
+    print "Removed duplicate edge! " + leftId + " ("+leftType+") -> " + rightId + " ("+rightType+")"
+  else:
+    existing_edges.add(edgeDesc)
+    filtered_edges.append(edge)
+edges = filtered_edges
 
 # aggregate elements
 elements = encounters_doc + patients_doc + doctors_doc + researchers_doc + insurance_doc + lab_output_doc
