@@ -367,14 +367,38 @@ edges = edges + genDirectedEdge(encounters_doc, patients_doc, None, None)
 # connect a doctor to each encounter... encounter->doctor
 edges = edges + genDirectedEdge(encounters_doc, doctors_doc, None, None)
 
-# connect each encounter to 1..n clearing houses
-edges = edges + genDirectedEdge(encounters_doc, clearing_houses_doc, None, None)
+# connect each clearing house to 1..n encounters, add ~5 encounters to each
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
+edges = edges + genDirectedEdge(clearing_houses_doc, encounters_doc, None, None)
 
 # connect each clearing house to 1..n research orgs
 edges = edges + genDirectedEdge(clearing_houses_doc, research_orgs_doc, None, None)
 
+# make sure also every research organization has a clearing house attached
+edges = edges + genDirectedEdge(research_orgs_doc, clearing_houses_doc, None, None, "right_to_left")
+
 # connect each researcher to one research org (research org -> researcher)
 edges = edges + genDirectedEdge(researchers_doc, research_orgs_doc, None, None, "right_to_left")
+
+# filter duplicate edges
+# a set is a practical data structure to check the existance of an object in a set of objects
+existing_edges = set();
+filtered_edges = [];
+for edge in edges:
+  leftId = edge["payload"]["left_element_id"]
+  leftType = edge["payload"]["left_element_type"]
+  rightId = edge["payload"]["right_element_id"]
+  rightType = edge["payload"]["right_element_type"]
+  edgeDesc = "_".join(sorted([leftId, rightId]))
+  if edgeDesc in existing_edges:
+    print "Removed duplicate edge! " + leftId + " ("+leftType+") -> " + rightId + " ("+rightType+")"
+  else:
+    existing_edges.add(edgeDesc)
+    filtered_edges.append(edge)
+edges = filtered_edges
 
 # aggregate elements
 elements = encounters_doc + patients_doc + doctors_doc + researchers_doc + insurance_doc + lab_output_doc
