@@ -2,7 +2,7 @@
 # test healthcare entities, augments with alt set,
 # and creates edges
 
-import json, datetime, csv, random, uuid, os, shutil
+import json, datetime, csv, random, uuid, os, shutil, copy
 
 shutil.rmtree("./output", ignore_errors=True, onerror=None) 
 os.mkdir("./output")
@@ -287,7 +287,7 @@ def genDirectedEdge(leftDoc, rightDoc, leftDocKey=None, rightDocKey=None, direct
       joinCriteria = leftEntry["payload"][leftDocKey].strip().lower()
 
       if not joinCriteria in rightDocIndex:
-        #print "No match on " + joinCriteria
+        print "No match on " + joinCriteria + " for key: " + leftDocKey
         continue
 
       # find possible right entries for each left entry based on 
@@ -335,8 +335,27 @@ edges = []
 edges = edges + genDirectedEdge(lab_output_doc, doctors_doc, "ordering_provider", "provider_name" ) # result -> doctor
 edges = edges + genDirectedEdge(lab_output_doc, insurance_doc, "primary_insurance", "name" ) # result -> insurance
 edges = edges + genDirectedEdge(lab_output_doc, labs_doc, "performing_lab", "name" ) # result -> lab
-edges = edges + genDirectedEdge(patients_doc, insurance_doc, "primary_insurance_carrier", "name" ) # patient -> insurance carrier
-edges = edges + genDirectedEdge(doctors_doc, insurance_doc, "insurance_accepted", "name" ) # doctor -> insurance accepted
+
+# creating a stripped version of the patients, only containing the ones which have an insurance
+patients_insurance_mod = []
+for pat in patients_doc:
+  if pat["payload"]["primary_insurance_carrier"]:
+    patients_insurance_mod.append(pat)
+print "Stripped patient array length, all having a single insurance: "+str(len(patients_insurance_mod))
+edges = edges + genDirectedEdge(patients_insurance_mod, insurance_doc, "primary_insurance_carrier", "name" ) # patient -> insurance carrier
+
+# creating duplicated of doctor entities where they support multiple insurances; remove the entities where they don't support any
+doctors_insurance_mod = []
+for doc in doctors_doc:
+  if doc["payload"]["insurance_accepted"]:
+    providers = doc["payload"]["insurance_accepted"].split(",")
+    for provider in providers:
+      provider = provider.strip()
+      doc_clone = copy.deepcopy(doc)
+      doc_clone["payload"]["insurance_accepted"] = provider
+      doctors_insurance_mod.append(doc_clone)
+print "Extended doctors array length, all having a single insurance: "+str(len(doctors_insurance_mod))
+edges = edges + genDirectedEdge(doctors_insurance_mod, insurance_doc, "insurance_accepted", "name" ) # doctor -> insurance accepted
 
 # then connect each lab result to a unique encounter (but save edge as encounter->lab result)
 edges = edges + genDirectedEdge(lab_output_doc, encounters_doc, None, None, "right_to_left" )
@@ -344,6 +363,9 @@ edges = edges + genDirectedEdge(lab_output_doc, encounters_doc, None, None, "rig
 # now some encounters have a lab result
 # connect a patient to each encounter... encounter->patient
 edges = edges + genDirectedEdge(encounters_doc, patients_doc, None, None)
+
+# connect a doctor to each encounter... encounter->doctor
+edges = edges + genDirectedEdge(encounters_doc, doctors_doc, None, None)
 
 # connect each encounter to 1..n clearing houses
 edges = edges + genDirectedEdge(encounters_doc, clearing_houses_doc, None, None)
